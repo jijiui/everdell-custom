@@ -1,0 +1,194 @@
+.card {
+  min-height: 180px;
+  width: 200px;
+  border-radius: 5px;
+  position: relative;
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-color-item);
+  overflow: hidden;
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card_header {
+  height: 35px;
+  font-weight: var(--font-bold);
+  font-size: 12px;
+  text-align: center;
+  color: var(--text-color-inv);
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.expansion {
+  font-size: 8px;
+  font-weight: normal;
+}
+
+.card_bottom_row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.associated_card {
+  display: flex;
+  color: var(--text-color);
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.associated_card_used {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+
+.associated_card_golden_leaf {
+  position: relative;
+  white-space: nowrap;
+  margin-right: -5px;
+}
+
+.color_associated_card_gold {
+  background: var(--color-gold-leaf);
+  color: var(--color-vp-text) !important;
+}
+
+.associated_card > span {
+  border-radius: 5px 0 0 0;
+  font-weight: var(--font-bold);
+  color: var(--text-color-inv);
+  padding: 6px 5px 4px 5px;
+  font-size: 10px;
+  align-self: flex-end;
+}
+
+.info_row {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  justify-content: space-between;
+}
+
+.card_cost {
+  display: flex;
+  flex: auto;
+  min-height: 8px;
+}
+
+.card_cost_item {
+  padding: 5px;
+  max-height: 30px;
+}
+
+.card_description {
+  padding: 10px 5px 5px 5px;
+  font-size: 12px;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.card_cost_value {
+  font-size: 14px;
+}
+
+.rarity_label {
+  padding: 6px 5px 4px 5px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: var(--font-bold);
+  color: var(--text-color-light);
+}
+
+.circle {
+  border-radius: 99px;
+  width: 24px;
+  height: 24px;
+  margin: 6px;
+
+  text-align: center;
+  font-size: 27px;
+}
+
+.card_header_vp {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.card_header_vp_number {
+  font-size: 15px;
+  font-weight: var(--font-bold);
+  display: inline-block;
+  margin-top: -14px;
+  vertical-align: middle;
+  color: var(--color-vp-text);
+}
+
+.card_header_symbol {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
+
+.color_victory_point {
+  background: var(--color-vp);
+}
+
+.color_destination {
+  background: var(--color-dest);
+}
+
+.color_production {
+  background: var(--color-prod);
+}
+
+.color_prosperity {
+  background: var(--color-pros);
+}
+
+.color_traveler {
+  background: var(--color-trav);
+}
+
+.color_governance {
+  background: var(--color-gov);
+}
+
+.color_associated_card_critter {
+  color: var(--text-color-light) !important;
+}
+
+.played_card_wrapper {
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.played_card_card > div {
+  margin: auto;
+}
+
+.played_card_meta > div {
+  margin: 5px 0;
+  font-size: 10px;
+}
+
+.worker_spot_row {
+  margin: auto;
+  display: flex;
+}
+
+.worker_spot {
+  position: relative;
+  display: inline-block;
+  margin: 0 8px;
+  width: 40px;
+  height: 25px;
+}

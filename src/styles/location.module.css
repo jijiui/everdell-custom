@@ -1,0 +1,84 @@
+.location {
+  height: 100px;
+  width: 200px;
+  border-radius: 5px;
+  color: var(--color-loc);
+  background-color: var(--bg-color-item);
+  border: 1px solid var(--color-loc);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.location_workers {
+  width: 180px;
+  margin: 10px;
+  font-size: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.location_worker {
+  font-weight: var(--font-bold);
+}
+
+.location_name {
+  padding: 10px;
+  font-weight: var(--font-bold);
+  font-size: 12px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.color_basic.location {
+  border: solid 2px var(--color-loc-basic);
+}
+
+.color_forest.location {
+  border: solid 2px var(--color-loc-forest);
+}
+
+.color_haven.location {
+  border: solid 2px var(--color-loc-haven);
+}
+
+.color_journey.location {
+  border: solid 2px var(--color-loc-journey);
+}
+
+.color_knoll {
+  border: solid 2px var(--color-loc-haven);
+}
+
+.color_station {
+  border: solid 2px var(--color-loc-haven);
+}
+
+.location_center {
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.location_type {
+  text-align: center;
+  margin: 5px;
+}
+
+.location_bot {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: var(--font-bold);
+  justify-content: space-between;
+  align-items: flex-end;
+  max-height: 10px;
+}
+
+.location_bot_spacer,
+.location_occupancy {
+  width: 100px;
+  margin: 5px;
+  text-align: right;
+}

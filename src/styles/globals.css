@@ -1,0 +1,105 @@
+:root {
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-mono: Consolas, monaco, "Ubuntu Mono", "Liberation Mono", "Courier New",
+    Courier, monospace;
+  --font-cursive: "Allura", cursive;
+  --font-bold: 600;
+}
+
+:root {
+  --bg-color: #ffffff;
+  --bg-color-item: #ffffff;
+  --text-color: #2b2c1a;
+  --border-color: #1a1a1a;
+  --text-color-inv: #ffffff;
+  --text-color-light: #bbb;
+  --highlight-color: #eee;
+
+  --river-col: #1891a2;
+  --adornment-col: #f5ccd5;
+  --adornment-border-col: #b22243;
+  --border-color-river: #09343b;
+  --border-color-train-car-tile: #9f640f;
+  --border-color-visitor: #9f640f;
+
+  --color-vp: #e3b117;
+  --color-vp-text: #3c1346;
+  --color-dest: #943032;
+  --color-prod: #88a55e;
+  --color-pros: #534279;
+  --color-trav: #796a53;
+  --color-gov: #476f80;
+  --color-loc: #13463c;
+  --color-gold-leaf: #e2b399;
+
+  --color-loc-basic: #88a55e;
+  --color-loc-forest: #4e5627;
+  --color-loc-haven: #ddcf9d;
+  --color-loc-journey: #bb9e66;
+  --border-color-evt: #91894e;
+}
+
+:root.dark {
+  --text-color: rgb(255 255 255);
+  --text-color-light: rgb(136 153 166);
+  --text-color-inv: #fdf6e3;
+  --bg-color: rgb(21 32 43);
+  --bg-color-item: rgb(22 39 55);
+  --border-color: #3d5465;
+  --highlight-color: rgb(29 52 75 / 86%);
+
+  /*--color-vp: #775d0d;*/
+  /*--color-vp-text: #d5d7d8;*/
+  --color-dest: #471718;
+  --color-prod: #2f3920;
+  --color-pros: #2d2442;
+  --color-trav: #473e31;
+  --color-gov: #2f4955;
+  --color-loc: #d5d7d8;
+
+  --border-color-evt: var(--border-color);
+  --color-loc-basic: var(--border-color);
+  --color-loc-forest: var(--border-color);
+  --color-loc-haven: var(--border-color);
+  --color-loc-journey: var(--border-color);
+
+  --adornment-col: #e26983;
+  --adornment-border-col: #bf2547;
+  --border-color-river: #1891a2;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  color: var(--text-color);
+  font-family: var(--font-sans);
+  background-color: var(--bg-color);
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid var(--border-color);
+  margin: 1em 0;
+  padding: 0;
+}
+
+button {
+  font-family: var(--font-sans);
+}
+
+a {
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}

@@ -1,0 +1,119 @@
+.items {
+  margin-left: -10px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.river_items {
+  margin-left: -10px;
+  display: flex;
+}
+
+.event_items {
+  margin-left: -10px;
+  display: flex;
+}
+
+.event_items_col {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio_item {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.items_no_wrap {
+  margin-left: -10px;
+  display: flex;
+}
+
+.empty_city {
+  font-size: 14px;
+  padding: 20px 0;
+}
+
+.city_stats {
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  margin-left: -5px;
+  color: #999;
+}
+
+.city_stat {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.location_items {
+  margin-left: -10px;
+  display: flex;
+  flex-flow: row wrap;
+  width: 840px;
+}
+
+.game_board {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forest_locations {
+  height: auto;
+  margin-left: -10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.station_visitors {
+  height: auto;
+  margin-left: -10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.forest_locations_newleaf {
+  height: auto;
+  margin-left: -10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.forest_locations > div {
+  min-height: 120px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.locations_and_events {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+}
+
+.station_cards {
+  flex-direction: column;
+  gap: 8px;
+}
+
+.station_card {
+  display: flex;
+  gap: 6px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.visitor_styles {
+  height: auto;
+  margin-left: -10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.visitor_meta_data {
+  margin: 5px 0;
+  font-size: 10px;
+}

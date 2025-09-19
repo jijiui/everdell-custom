@@ -1,0 +1,7499 @@
+[
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "label": "Gain 1 ANY",
+    "options": [
+      "BERRY",
+      "TWIG",
+      "RESIN",
+      "PEBBLE"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    },
+    "adornmentContext": "Spyglass",
+    "prevInputType": "PLAY_ADORNMENT"
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLAY_ADORNMENT",
+    "label": [
+      "Select up to 4 CARD to discard to gain 1 ANY for each."
+    ],
+    "adornmentContext": "Scales",
+    "cardOptions": [
+      "Wife",
+      "Farm",
+      "Husband",
+      "Postal Pigeon",
+      "Inn",
+      "Innkeeper",
+      "Queen"
+    ],
+    "maxToSelect": 4,
+    "minToSelect": 0,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Gain 4 ANY",
+    "toSpend": false,
+    "maxResources": 4,
+    "minResources": 4,
+    "clientOptions": {
+      "resources": {}
+    },
+    "adornmentContext": "Scales",
+    "prevInputType": "SELECT_CARDS"
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLAY_ADORNMENT",
+    "label": [
+      "Select up to 4 CARD to discard to gain 1 ANY for each."
+    ],
+    "adornmentContext": "Scales",
+    "cardOptions": [
+      "Wife",
+      "Farm",
+      "Husband",
+      "Postal Pigeon",
+      "Inn",
+      "Innkeeper",
+      "Queen"
+    ],
+    "maxToSelect": 4,
+    "minToSelect": 0,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_ADORNMENT",
+    "label": [
+      "Copy the ability of an ",
+      {
+        "type": "em",
+        "text": "Adornment"
+      }
+    ],
+    "prevInputType": "PLAY_ADORNMENT",
+    "adornmentContext": "Mirror",
+    "adornmentOptions": [
+      "Bell",
+      "Gilded Book"
+    ],
+    "clientOptions": {
+      "adornment": null
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_ADORNMENT",
+    "label": [
+      "Copy the ability of an ",
+      {
+        "type": "em",
+        "text": "Adornment"
+      }
+    ],
+    "prevInputType": "PLAY_ADORNMENT",
+    "adornmentContext": "Mirror",
+    "adornmentOptions": [
+      "Bell",
+      "Hourglass"
+    ],
+    "clientOptions": {
+      "adornment": null
+    }
+  },
+  {
+    "inputType": "SELECT_LOCATION",
+    "prevInputType": "PLAY_ADORNMENT",
+    "label": "Select forest location to copy",
+    "adornmentContext": "Hourglass",
+    "locationOptions": [
+      "TWO_BERRY_ONE_CARD",
+      "THREE_BERRY"
+    ],
+    "clientOptions": {
+      "selectedLocation": null
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "label": "Gain 1 ANY",
+    "options": [
+      "BERRY",
+      "TWIG",
+      "RESIN",
+      "PEBBLE"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    },
+    "adornmentContext": "Hourglass",
+    "prevInputType": "PLAY_ADORNMENT"
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "label": "Gain 1 ANY",
+    "options": [
+      "BERRY",
+      "TWIG",
+      "RESIN",
+      "PEBBLE"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    },
+    "adornmentContext": "Hourglass",
+    "prevInputType": "PLAY_ADORNMENT"
+  },
+  {
+    "inputType": "SELECT_PLAYED_ADORNMENT",
+    "label": [
+      "Copy the ability of an ",
+      {
+        "type": "em",
+        "text": "Adornment"
+      }
+    ],
+    "prevInputType": "PLAY_ADORNMENT",
+    "adornmentContext": "Mirror",
+    "adornmentOptions": [
+      "Bell",
+      "Gilded Book"
+    ],
+    "clientOptions": {
+      "adornment": null
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Gain 2 ANY",
+    "toSpend": false,
+    "maxResources": 2,
+    "minResources": 2,
+    "clientOptions": {
+      "resources": {}
+    },
+    "adornmentContext": "Key to the City",
+    "prevInputType": "PLAY_ADORNMENT"
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PLAY_ADORNMENT",
+    "label": "Select 3 PRODUCTION to activate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "eNQoc33kdUCkxzPN8izPVY",
+        "cardName": "Mine",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "eNQoc33kdUCkxzPN8izPVY",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "eNQoc33kdUCkxzPN8izPVY",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "eNQoc33kdUCkxzPN8izPVY",
+        "cardName": "Farm",
+        "usedForCritter": false
+      }
+    ],
+    "adornmentContext": "Sundial",
+    "maxToSelect": 3,
+    "minToSelect": 3,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PLAY_ADORNMENT",
+    "label": "Select 3 PRODUCTION to activate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "1qBCfG7DP8hDRNCoD1C8LV",
+        "cardName": "Mine",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "1qBCfG7DP8hDRNCoD1C8LV",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "1qBCfG7DP8hDRNCoD1C8LV",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "1qBCfG7DP8hDRNCoD1C8LV",
+        "cardName": "Farm",
+        "usedForCritter": false
+      }
+    ],
+    "adornmentContext": "Sundial",
+    "maxToSelect": 3,
+    "minToSelect": 3,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PLAY_ADORNMENT",
+    "label": "Select 3 PRODUCTION to activate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "iMPYXAaRC8LDrnn9hHRM9f",
+        "cardName": "Mine",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "iMPYXAaRC8LDrnn9hHRM9f",
+        "cardName": "Chip Sweep"
+      },
+      {
+        "cardOwnerId": "iMPYXAaRC8LDrnn9hHRM9f",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "iMPYXAaRC8LDrnn9hHRM9f",
+        "cardName": "Miner Mole"
+      }
+    ],
+    "adornmentContext": "Sundial",
+    "maxToSelect": 3,
+    "minToSelect": 3,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "SELECT_PLAYED_CARDS",
+    "cardContext": "Miner Mole",
+    "label": "Select 1 PRODUCTION to activate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "rJmhrY5xHAJFkEpa7QXkUA",
+        "cardName": "Farm",
+        "usedForCritter": false
+      }
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "SELECT_PLAYED_CARDS",
+    "label": "Select 1 PRODUCTION to activate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "iMPYXAaRC8LDrnn9hHRM9f",
+        "cardName": "Mine",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "iMPYXAaRC8LDrnn9hHRM9f",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "iMPYXAaRC8LDrnn9hHRM9f",
+        "cardName": "Miner Mole"
+      }
+    ],
+    "cardContext": "Chip Sweep",
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLAY_ADORNMENT",
+    "label": [
+      "Select a GOVERNANCE to gain resources equal to its cost."
+    ],
+    "adornmentContext": "Gilded Book",
+    "cardOptions": [
+      "Dungeon",
+      "Clock Tower",
+      "Innkeeper"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Gain 3 ANY",
+    "toSpend": false,
+    "maxResources": 3,
+    "minResources": 3,
+    "clientOptions": {
+      "resources": {}
+    },
+    "adornmentContext": "Seaglass Amulet",
+    "prevInputType": "PLAY_ADORNMENT"
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLAY_ADORNMENT",
+    "label": "Select CARD to play for free",
+    "cardOptions": [
+      "Farm",
+      "Farm"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "adornmentContext": "Masque",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "SELECT_CARDS",
+    "prevInput": {
+      "inputType": "SELECT_CARDS",
+      "prevInputType": "PLAY_ADORNMENT",
+      "adornmentContext": "Masque",
+      "cardOptions": [
+        "Farm",
+        "Farm"
+      ],
+      "maxToSelect": 1,
+      "minToSelect": 1,
+      "clientOptions": {
+        "selectedCards": [
+          "Farm"
+        ]
+      }
+    },
+    "adornmentContext": "Masque",
+    "label": [
+      "Select where to play ",
+      {
+        "type": "entity",
+        "entityType": "card",
+        "card": "Farm"
+      },
+      " from"
+    ],
+    "options": [
+      "Meadow",
+      "Hand"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLAY_ADORNMENT",
+    "label": "Select CARD to play for free",
+    "cardOptions": [
+      "Farm",
+      "Farm"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "adornmentContext": "Masque",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "SELECT_CARDS",
+    "prevInput": {
+      "inputType": "SELECT_CARDS",
+      "prevInputType": "PLAY_ADORNMENT",
+      "adornmentContext": "Masque",
+      "cardOptions": [
+        "Farm",
+        "Farm"
+      ],
+      "maxToSelect": 1,
+      "minToSelect": 1,
+      "clientOptions": {
+        "selectedCards": [
+          "Farm"
+        ]
+      }
+    },
+    "adornmentContext": "Masque",
+    "label": [
+      "Select where to play ",
+      {
+        "type": "entity",
+        "entityType": "card",
+        "card": "Farm"
+      },
+      " from"
+    ],
+    "options": [
+      "Meadow",
+      "Hand"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLAY_ADORNMENT",
+    "label": "Select CARD to play for free",
+    "cardOptions": [
+      "Husband"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "adornmentContext": "Masque",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLAY_ADORNMENT",
+    "label": "Select CARD to play for free",
+    "cardOptions": [
+      "Postal Pigeon",
+      "Postal Pigeon",
+      "Farm",
+      "Husband",
+      "Chapel",
+      "Monk"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "adornmentContext": "Masque",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLAY_ADORNMENT",
+    "label": "Select CARD to play for free",
+    "cardOptions": [
+      "Postal Pigeon",
+      "Postal Pigeon",
+      "Farm",
+      "Husband",
+      "Chapel",
+      "Fairgrounds"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "adornmentContext": "Masque",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLAY_ADORNMENT",
+    "label": "Select CARD to play for free",
+    "cardOptions": [
+      "Postal Pigeon",
+      "Postal Pigeon",
+      "Farm",
+      "Husband",
+      "Chapel",
+      "Monk"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "adornmentContext": "Masque",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_LOCATION",
+    "prevInputType": "PLAY_ADORNMENT",
+    "label": "Select forest location to copy",
+    "adornmentContext": "Hourglass",
+    "locationOptions": [
+      "TWO_BERRY_ONE_CARD",
+      "THREE_BERRY"
+    ],
+    "clientOptions": {
+      "selectedLocation": null
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "label": "Gain 1 ANY",
+    "options": [
+      "BERRY",
+      "TWIG",
+      "RESIN",
+      "PEBBLE"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    },
+    "adornmentContext": "Hourglass",
+    "prevInputType": "PLAY_ADORNMENT"
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "label": "Gain 1 ANY",
+    "options": [
+      "BERRY",
+      "TWIG",
+      "RESIN",
+      "PEBBLE"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    },
+    "adornmentContext": "Hourglass",
+    "prevInputType": "PLAY_ADORNMENT"
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PLAY_ADORNMENT",
+    "label": "Select up to 2 TRAVELER to reactivate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "dM3r32FHi8MzpsjfvWFWZB",
+        "cardName": "Wanderer"
+      },
+      {
+        "cardOwnerId": "dM3r32FHi8MzpsjfvWFWZB",
+        "cardName": "Wanderer"
+      }
+    ],
+    "adornmentContext": "Compass",
+    "maxToSelect": 2,
+    "minToSelect": 0,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PLAY_ADORNMENT",
+    "label": "Select up to 2 TRAVELER to reactivate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "hst9doEZSyY7EW8udjrk8f",
+        "cardName": "Wanderer"
+      },
+      {
+        "cardOwnerId": "hst9doEZSyY7EW8udjrk8f",
+        "cardName": "Wanderer"
+      }
+    ],
+    "adornmentContext": "Compass",
+    "maxToSelect": 2,
+    "minToSelect": 0,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PLAY_ADORNMENT",
+    "label": "Select up to 2 TRAVELER to reactivate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "1SMy9aF5F9nhw3noGYCrRt",
+        "cardName": "Ruins",
+        "usedForCritter": false
+      }
+    ],
+    "adornmentContext": "Compass",
+    "maxToSelect": 2,
+    "minToSelect": 0,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PLAY_CARD",
+    "label": "Select 1 Construction to discard from your city",
+    "playedCardContext": {
+      "cardOwnerId": "1SMy9aF5F9nhw3noGYCrRt",
+      "cardName": "Ruins",
+      "usedForCritter": false
+    },
+    "cardOptions": [
+      {
+        "cardOwnerId": "1SMy9aF5F9nhw3noGYCrRt",
+        "cardName": "Farm",
+        "usedForCritter": false
+      }
+    ],
+    "cardContext": "Ruins",
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PLAY_ADORNMENT",
+    "label": "Select up to 2 TRAVELER to reactivate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "ab6mgq6UnqW4eQkupVBqD1",
+        "cardName": "Fool"
+      }
+    ],
+    "adornmentContext": "Compass",
+    "maxToSelect": 2,
+    "minToSelect": 0,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PLAY_ADORNMENT",
+    "label": "Select up to 2 TRAVELER to reactivate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "fypLSGHi2QqMu6szSL5mva",
+        "cardName": "Messenger",
+        "shareSpaceWith": "Farm"
+      }
+    ],
+    "adornmentContext": "Compass",
+    "maxToSelect": 2,
+    "minToSelect": 0,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PLAY_ADORNMENT",
+    "label": "Select up to 2 TRAVELER to reactivate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "hepz8ZFBh6gKP72R9VuNMT",
+        "cardName": "Ranger"
+      }
+    ],
+    "adornmentContext": "Compass",
+    "maxToSelect": 2,
+    "minToSelect": 0,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_WORKER_PLACEMENT",
+    "label": "Place your worker",
+    "prevInput": {
+      "inputType": "SELECT_WORKER_PLACEMENT",
+      "label": "Select a deployed worker to move",
+      "prevInputType": "PLAY_CARD",
+      "options": [
+        {
+          "location": "ONE_STONE"
+        }
+      ],
+      "cardContext": "Ranger",
+      "mustSelectOne": true,
+      "clientOptions": {
+        "selectedOption": {
+          "location": "ONE_STONE"
+        }
+      }
+    },
+    "prevInputType": "SELECT_WORKER_PLACEMENT",
+    "options": [
+      {
+        "location": "ONE_BERRY"
+      },
+      {
+        "location": "ONE_BERRY_AND_ONE_CARD"
+      },
+      {
+        "location": "ONE_RESIN_AND_ONE_CARD"
+      },
+      {
+        "location": "THREE_TWIGS"
+      },
+      {
+        "location": "TWO_CARDS_AND_ONE_VP"
+      },
+      {
+        "location": "TWO_RESIN"
+      },
+      {
+        "location": "TWO_TWIGS_AND_ONE_CARD"
+      },
+      {
+        "location": "HAVEN"
+      }
+    ],
+    "cardContext": "Ranger",
+    "mustSelectOne": true,
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_WORKER_PLACEMENT",
+    "label": "Place your worker",
+    "prevInput": {
+      "inputType": "SELECT_WORKER_PLACEMENT",
+      "label": "Select a deployed worker to move",
+      "prevInputType": "PLAY_CARD",
+      "options": [
+        {
+          "location": "ONE_STONE"
+        }
+      ],
+      "cardContext": "Ranger",
+      "mustSelectOne": true,
+      "clientOptions": {
+        "selectedOption": {
+          "location": "ONE_STONE"
+        }
+      }
+    },
+    "prevInputType": "SELECT_WORKER_PLACEMENT",
+    "options": [
+      {
+        "location": "ONE_BERRY"
+      },
+      {
+        "location": "ONE_BERRY_AND_ONE_CARD"
+      },
+      {
+        "location": "ONE_RESIN_AND_ONE_CARD"
+      },
+      {
+        "location": "THREE_TWIGS"
+      },
+      {
+        "location": "TWO_CARDS_AND_ONE_VP"
+      },
+      {
+        "location": "TWO_RESIN"
+      },
+      {
+        "location": "TWO_TWIGS_AND_ONE_CARD"
+      },
+      {
+        "location": "HAVEN"
+      }
+    ],
+    "cardContext": "Ranger",
+    "mustSelectOne": true,
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Gain 2 ANY",
+    "toSpend": false,
+    "maxResources": 2,
+    "minResources": 2,
+    "clientOptions": {
+      "resources": {}
+    },
+    "adornmentContext": "Tiara",
+    "prevInputType": "PLAY_ADORNMENT"
+  },
+  {
+    "inputType": "DISCARD_CARDS",
+    "label": "Discard up to 5 CARD to gain 1 VP each",
+    "prevInputType": "PLAY_CARD",
+    "minCards": 0,
+    "maxCards": 5,
+    "cardContext": "Bard",
+    "clientOptions": {
+      "cardsToDiscard": []
+    }
+  },
+  {
+    "inputType": "DISCARD_CARDS",
+    "label": "Discard up to 5 CARD to gain 1 VP each",
+    "prevInputType": "PLAY_CARD",
+    "minCards": 0,
+    "maxCards": 5,
+    "cardContext": "Bard",
+    "clientOptions": {
+      "cardsToDiscard": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "label": "Select where to draw CARD",
+    "options": [
+      "Deck",
+      "Discard Pile"
+    ],
+    "cardContext": "Cemetary",
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "SELECT_OPTION_GENERIC",
+    "label": "Select 1 CARD to play for free",
+    "cardOptions": [
+      "Farm",
+      "Queen"
+    ],
+    "cardOptionsUnfiltered": [
+      "University",
+      "Farm",
+      "Queen",
+      "King"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "Cemetary",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "SELECT_OPTION_GENERIC",
+    "label": "Select 1 CARD to play for free",
+    "cardOptions": [
+      "Fool",
+      "Queen"
+    ],
+    "cardOptionsUnfiltered": [
+      "University",
+      "Fool",
+      "Queen",
+      "King"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "Cemetary",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "SELECT_OPTION_GENERIC",
+    "label": "Select 1 CARD to play for free",
+    "cardOptions": [
+      "Fool",
+      "Queen"
+    ],
+    "cardOptionsUnfiltered": [
+      "University",
+      "Fool",
+      "Queen",
+      "King"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "Cemetary",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "label": "Select where to draw CARD",
+    "options": [
+      "Deck",
+      "Discard Pile"
+    ],
+    "cardContext": "Cemetary",
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "SELECT_OPTION_GENERIC",
+    "label": "Select 1 CARD to play for free",
+    "cardOptions": [
+      "University",
+      "Farm",
+      "Queen",
+      "King"
+    ],
+    "cardOptionsUnfiltered": [
+      "University",
+      "Farm",
+      "Queen",
+      "King"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "Cemetary",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "SELECT_OPTION_GENERIC",
+    "label": "Select 1 CARD to play for free",
+    "cardOptions": [
+      "University",
+      "Farm",
+      "Queen",
+      "King"
+    ],
+    "cardOptionsUnfiltered": [
+      "University",
+      "Farm",
+      "Queen",
+      "King"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "Cemetary",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "label": "Select where to draw CARD",
+    "options": [
+      "Deck"
+    ],
+    "cardContext": "Cemetary",
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PLAY_CARD",
+    "label": "Select 1 PRODUCTION to activate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "4XGbTtZB5Mk7T2RmfY1AqQ",
+        "cardName": "Mine",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "4XGbTtZB5Mk7T2RmfY1AqQ",
+        "cardName": "Farm",
+        "usedForCritter": false
+      }
+    ],
+    "cardContext": "Chip Sweep",
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PLAY_CARD",
+    "label": "Select 1 PRODUCTION to activate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "urqiYLWX59nfNr2iZg8MK9",
+        "cardName": "Farm",
+        "usedForCritter": false
+      }
+    ],
+    "cardContext": "Chip Sweep",
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_WORKER_PLACEMENT",
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "label": "You may pay 1 VP from here to activate 1 of the following locations",
+    "options": [
+      {
+        "location": "ONE_BERRY"
+      },
+      {
+        "location": "TWO_WILD"
+      }
+    ],
+    "cardContext": "Clock Tower",
+    "mustSelectOne": false,
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_WORKER_PLACEMENT",
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "label": "You may pay 1 VP from here to activate 1 of the following locations",
+    "options": [
+      {
+        "location": "ONE_BERRY"
+      },
+      {
+        "location": "TWO_WILD"
+      }
+    ],
+    "cardContext": "Clock Tower",
+    "mustSelectOne": false,
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Gain 2 ANY",
+    "toSpend": false,
+    "maxResources": 2,
+    "minResources": 2,
+    "clientOptions": {
+      "resources": {}
+    },
+    "locationContext": "TWO_WILD",
+    "prevInputType": "PLACE_WORKER"
+  },
+  {
+    "inputType": "SELECT_WORKER_PLACEMENT",
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "label": "You may pay 1 VP from here to activate 1 of the following locations",
+    "options": [
+      {
+        "location": "ONE_BERRY"
+      },
+      {
+        "location": "ONE_BERRY"
+      }
+    ],
+    "cardContext": "Clock Tower",
+    "mustSelectOne": false,
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "label": "Choose one CARD to keep",
+    "prevInputType": "SELECT_WORKER_PLACEMENT",
+    "cardOptions": [
+      "Teacher",
+      "Teacher"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "Teacher",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "SELECT_WORKER_PLACEMENT",
+    "label": "Select 1 PRODUCTION to activate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "cw83n1xnJJBS6mNtkpyGmk",
+        "cardName": "Teacher"
+      },
+      {
+        "cardOwnerId": "cw83n1xnJJBS6mNtkpyGmk",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "cw83n1xnJJBS6mNtkpyGmk",
+        "cardName": "Husband"
+      }
+    ],
+    "cardContext": "Chip Sweep",
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "label": "Gain 1 ANY",
+    "options": [
+      "BERRY",
+      "TWIG",
+      "RESIN",
+      "PEBBLE"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    },
+    "cardContext": "Husband",
+    "prevInputType": "SELECT_WORKER_PLACEMENT"
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "label": "Choose one CARD to keep",
+    "prevInputType": "SELECT_WORKER_PLACEMENT",
+    "cardOptions": [
+      "Teacher",
+      "Teacher"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "Teacher",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "SELECT_WORKER_PLACEMENT",
+    "label": "Select 1 PRODUCTION to activate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "cw83n1xnJJBS6mNtkpyGmk",
+        "cardName": "Teacher"
+      },
+      {
+        "cardOwnerId": "cw83n1xnJJBS6mNtkpyGmk",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "cw83n1xnJJBS6mNtkpyGmk",
+        "cardName": "Husband"
+      }
+    ],
+    "cardContext": "Chip Sweep",
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "label": "Choose one CARD to keep",
+    "prevInputType": "SELECT_WORKER_PLACEMENT",
+    "cardOptions": [
+      "Teacher",
+      "Teacher"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "Teacher",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "label": "Select player to give the other CARD",
+    "prevInputType": "SELECT_CARDS",
+    "prevInput": {
+      "inputType": "SELECT_CARDS",
+      "prevInputType": "SELECT_WORKER_PLACEMENT",
+      "cardContext": "Teacher",
+      "cardOptions": [
+        "Teacher",
+        "Teacher"
+      ],
+      "maxToSelect": 1,
+      "minToSelect": 1,
+      "clientOptions": {
+        "selectedCards": [
+          "Teacher"
+        ]
+      }
+    },
+    "playerOptions": [
+      "eN6DbrCpGKWMoDNERjApU4"
+    ],
+    "mustSelectOne": true,
+    "cardContext": "Teacher",
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "label": "Select TWIG / RESIN / PEBBLE",
+    "prevInputType": "PLAY_CARD",
+    "cardContext": "Courthouse",
+    "options": [
+      "TWIG",
+      "RESIN",
+      "PEBBLE"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "toSpend": true,
+    "prevInputType": "PLAY_CARD",
+    "label": "Pay up to 3 BERRY to gain 1 VP each",
+    "cardContext": "Doctor",
+    "maxResources": 3,
+    "minResources": 0,
+    "specificResource": "BERRY",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInputType": "PLAY_CARD",
+    "label": [
+      "Select player to play ",
+      {
+        "type": "entity",
+        "entityType": "card",
+        "card": "Fool"
+      }
+    ],
+    "cardContext": "Fool",
+    "playerOptions": [
+      "jjKY8WzKxm4B3KcQsACg39"
+    ],
+    "mustSelectOne": true,
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInputType": "PLAY_CARD",
+    "label": [
+      "Select player to play ",
+      {
+        "type": "entity",
+        "entityType": "card",
+        "card": "Fool"
+      }
+    ],
+    "cardContext": "Fool",
+    "playerOptions": [
+      "xgmTbmjcRtKqaDNQXmCqLC"
+    ],
+    "mustSelectOne": true,
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInputType": "PLAY_CARD",
+    "label": [
+      "Select player to play ",
+      {
+        "type": "entity",
+        "entityType": "card",
+        "card": "Fool"
+      }
+    ],
+    "cardContext": "Fool",
+    "playerOptions": [
+      "kJYY7ccWKkxJLR1t8Hk19d"
+    ],
+    "mustSelectOne": true,
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "label": "Gain 1 ANY",
+    "options": [
+      "BERRY",
+      "TWIG",
+      "RESIN",
+      "PEBBLE"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    },
+    "cardContext": "Husband",
+    "prevInputType": "PLAY_CARD"
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "label": "Select 1 CARD from the Meadow to play for 3 fewer ANY",
+    "cardOptions": [
+      "Postal Pigeon",
+      "Postal Pigeon",
+      "Farm",
+      "Husband",
+      "Monk"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "Inn",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "label": "Select 1 CARD from the Meadow to play for 3 fewer ANY",
+    "cardOptions": [
+      "King",
+      "Queen",
+      "Postal Pigeon",
+      "Postal Pigeon",
+      "Farm",
+      "Husband",
+      "Monk"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "Inn",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PAYMENT_FOR_CARD",
+    "prevInputType": "SELECT_CARDS",
+    "cardContext": "Inn",
+    "card": "Queen",
+    "clientOptions": {
+      "card": "Queen",
+      "paymentOptions": {
+        "resources": {}
+      }
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "label": "Select 1 CARD from the Meadow to play for 3 fewer ANY",
+    "cardOptions": [
+      "Postal Pigeon",
+      "Postal Pigeon",
+      "Farm",
+      "Husband",
+      "Monk"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "Inn",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "label": "Select 1 CARD from the Meadow to play for 3 fewer ANY",
+    "cardOptions": [
+      "Postal Pigeon",
+      "Postal Pigeon",
+      "Farm",
+      "Husband",
+      "Monk"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "Inn",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "label": "Select 1 CARD from the Meadow to play for 3 fewer ANY",
+    "cardOptions": [
+      "Postal Pigeon",
+      "Postal Pigeon",
+      "Farm",
+      "Husband",
+      "Monk"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "Inn",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "label": "Select 1 CARD from the Meadow to play for 3 fewer ANY",
+    "cardOptions": [
+      "Postal Pigeon",
+      "Postal Pigeon",
+      "Farm",
+      "Husband",
+      "Wife"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "Inn",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_LOCATION",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "label": "Select location to copy",
+    "cardContext": "Lookout",
+    "locationOptions": [
+      "ONE_BERRY",
+      "ONE_BERRY_AND_ONE_CARD",
+      "ONE_RESIN_AND_ONE_CARD",
+      "ONE_STONE",
+      "THREE_TWIGS",
+      "TWO_CARDS_AND_ONE_VP",
+      "TWO_RESIN",
+      "TWO_TWIGS_AND_ONE_CARD"
+    ],
+    "clientOptions": {
+      "selectedLocation": null
+    }
+  },
+  {
+    "inputType": "SELECT_LOCATION",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "label": "Select location to copy",
+    "cardContext": "Lookout",
+    "locationOptions": [
+      "ONE_BERRY",
+      "ONE_BERRY_AND_ONE_CARD",
+      "ONE_RESIN_AND_ONE_CARD",
+      "ONE_STONE",
+      "THREE_TWIGS",
+      "TWO_CARDS_AND_ONE_VP",
+      "TWO_RESIN",
+      "TWO_TWIGS_AND_ONE_CARD",
+      "TWO_BERRY_ONE_CARD"
+    ],
+    "clientOptions": {
+      "selectedLocation": null
+    }
+  },
+  {
+    "inputType": "SELECT_LOCATION",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "label": "Select location to copy",
+    "cardContext": "Lookout",
+    "locationOptions": [
+      "ONE_BERRY",
+      "ONE_BERRY_AND_ONE_CARD",
+      "ONE_RESIN_AND_ONE_CARD",
+      "ONE_STONE",
+      "THREE_TWIGS",
+      "TWO_CARDS_AND_ONE_VP",
+      "TWO_RESIN",
+      "TWO_TWIGS_AND_ONE_CARD",
+      "DISCARD_ANY_THEN_DRAW_TWO_PER_CARD"
+    ],
+    "clientOptions": {
+      "selectedLocation": null
+    }
+  },
+  {
+    "inputType": "SELECT_LOCATION",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "label": "Select location to copy",
+    "cardContext": "Lookout",
+    "locationOptions": [
+      "ONE_BERRY",
+      "ONE_BERRY_AND_ONE_CARD",
+      "ONE_RESIN_AND_ONE_CARD",
+      "ONE_STONE",
+      "THREE_TWIGS",
+      "TWO_CARDS_AND_ONE_VP",
+      "TWO_RESIN",
+      "TWO_TWIGS_AND_ONE_CARD",
+      "DISCARD_ANY_THEN_DRAW_TWO_PER_CARD"
+    ],
+    "clientOptions": {
+      "selectedLocation": null
+    }
+  },
+  {
+    "inputType": "DISCARD_CARDS",
+    "prevInputType": "PLACE_WORKER",
+    "label": "Select CARD to discard",
+    "locationContext": "DISCARD_ANY_THEN_DRAW_TWO_PER_CARD",
+    "minCards": 0,
+    "maxCards": 8,
+    "clientOptions": {
+      "cardsToDiscard": []
+    }
+  },
+  {
+    "inputType": "SELECT_LOCATION",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "label": "Select location to copy",
+    "cardContext": "Lookout",
+    "locationOptions": [
+      "ONE_BERRY",
+      "ONE_BERRY_AND_ONE_CARD",
+      "ONE_RESIN_AND_ONE_CARD",
+      "ONE_STONE",
+      "THREE_TWIGS",
+      "TWO_CARDS_AND_ONE_VP",
+      "TWO_RESIN",
+      "TWO_TWIGS_AND_ONE_CARD",
+      "TWO_BERRY_ONE_CARD"
+    ],
+    "clientOptions": {
+      "selectedLocation": null
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PLAY_CARD",
+    "cardContext": "Miner Mole",
+    "label": "Select 1 PRODUCTION to activate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "51so7cah3hctCFJsVNfYX3",
+        "cardName": "General Store",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "51so7cah3hctCFJsVNfYX3",
+        "cardName": "Farm",
+        "usedForCritter": false
+      }
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PLAY_CARD",
+    "cardContext": "Miner Mole",
+    "label": "Select 1 PRODUCTION to activate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "64EmzmJTG16pkEDKX8o1fX",
+        "cardName": "Barge Toad"
+      },
+      {
+        "cardOwnerId": "64EmzmJTG16pkEDKX8o1fX",
+        "cardName": "Farm",
+        "usedForCritter": false
+      }
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PLAY_CARD",
+    "cardContext": "Miner Mole",
+    "label": "Select 1 PRODUCTION to activate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "gtaeMJAmhefAafnAtnJ6Qp",
+        "cardName": "Husband"
+      },
+      {
+        "cardOwnerId": "gtaeMJAmhefAafnAtnJ6Qp",
+        "cardName": "Farm",
+        "usedForCritter": false
+      }
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "label": "Gain 1 ANY",
+    "options": [
+      "BERRY",
+      "TWIG",
+      "RESIN",
+      "PEBBLE"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    },
+    "cardContext": "Husband",
+    "prevInputType": "SELECT_PLAYED_CARDS"
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PLAY_CARD",
+    "cardContext": "Miner Mole",
+    "label": "Select 1 PRODUCTION to activate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "xisnHzjYX4SC7UHNz4MUD1",
+        "cardName": "Farm",
+        "usedForCritter": false
+      }
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PLAY_CARD",
+    "cardContext": "Miner Mole",
+    "label": "Select 1 PRODUCTION to activate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "kmVxiPqZNAqy9Cp4ZU2rtz",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "kmVxiPqZNAqy9Cp4ZU2rtz",
+        "cardName": "General Store",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "kQEgdbTKgP5Eyshfha9cZR",
+        "cardName": "General Store",
+        "usedForCritter": false
+      }
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "toSpend": true,
+    "label": "Select 2 ANY to give to another player",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "cardContext": "Monastery",
+    "maxResources": 2,
+    "minResources": 2,
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInputType": "SELECT_RESOURCES",
+    "label": [
+      "Select player to give ",
+      {
+        "type": "text",
+        "text": "2 "
+      },
+      {
+        "type": "resource",
+        "resourceType": "BERRY"
+      }
+    ],
+    "prevInput": {
+      "inputType": "SELECT_RESOURCES",
+      "prevInputType": "VISIT_DESTINATION_CARD",
+      "cardContext": "Monastery",
+      "toSpend": true,
+      "clientOptions": {
+        "resources": {
+          "BERRY": 2
+        }
+      },
+      "maxResources": 2,
+      "minResources": 2
+    },
+    "cardContext": "Monastery",
+    "playerOptions": [
+      "kDzoEGdoyWREc5uQZ2YZ3U"
+    ],
+    "mustSelectOne": true,
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Give another player up to 2 BERRY to gain 2 VP each",
+    "toSpend": true,
+    "prevInputType": "PLAY_CARD",
+    "maxResources": 2,
+    "minResources": 0,
+    "specificResource": "BERRY",
+    "cardContext": "Monk",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInputType": "SELECT_RESOURCES",
+    "label": "Select player to give 2 BERRY",
+    "prevInput": {
+      "inputType": "SELECT_RESOURCES",
+      "prevInputType": "PLAY_CARD",
+      "toSpend": true,
+      "cardContext": "Monk",
+      "maxResources": 2,
+      "minResources": 0,
+      "specificResource": "BERRY",
+      "clientOptions": {
+        "resources": {
+          "BERRY": 2
+        }
+      }
+    },
+    "cardContext": "Monk",
+    "playerOptions": [
+      "x1SUoJSYKkdokUGgDUFUJn"
+    ],
+    "mustSelectOne": true,
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Give another player up to 2 BERRY to gain 2 VP each",
+    "toSpend": true,
+    "prevInputType": "PLAY_CARD",
+    "maxResources": 2,
+    "minResources": 0,
+    "specificResource": "BERRY",
+    "cardContext": "Monk",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Give another player up to 2 BERRY to gain 2 VP each",
+    "toSpend": true,
+    "prevInputType": "PLAY_CARD",
+    "maxResources": 2,
+    "minResources": 0,
+    "specificResource": "BERRY",
+    "cardContext": "Monk",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Give another player up to 2 BERRY to gain 2 VP each",
+    "toSpend": true,
+    "prevInputType": "PLAY_CARD",
+    "maxResources": 2,
+    "minResources": 0,
+    "specificResource": "BERRY",
+    "cardContext": "Monk",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInputType": "SELECT_RESOURCES",
+    "label": "Select player to give 2 BERRY",
+    "prevInput": {
+      "inputType": "SELECT_RESOURCES",
+      "toSpend": true,
+      "prevInputType": "PLAY_CARD",
+      "cardContext": "Monk",
+      "maxResources": 2,
+      "minResources": 0,
+      "specificResource": "BERRY",
+      "clientOptions": {
+        "resources": {
+          "BERRY": 2
+        }
+      }
+    },
+    "cardContext": "Monk",
+    "playerOptions": [
+      "7W3kLjK8PqCLBjHgsmknAg"
+    ],
+    "mustSelectOne": true,
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "toSpend": true,
+    "label": "Pay up to 2 ANY to gain an equal amount of ANY",
+    "prevInputType": "PLAY_CARD",
+    "cardContext": "Peddler",
+    "maxResources": 2,
+    "minResources": 0,
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Gain 2 ANY",
+    "toSpend": false,
+    "maxResources": 2,
+    "minResources": 2,
+    "clientOptions": {
+      "resources": {}
+    },
+    "cardContext": "Peddler",
+    "prevInputType": "SELECT_RESOURCES"
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "toSpend": true,
+    "label": "Pay up to 2 ANY to gain an equal amount of ANY",
+    "prevInputType": "PLAY_CARD",
+    "cardContext": "Peddler",
+    "maxResources": 2,
+    "minResources": 0,
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "toSpend": true,
+    "label": "Pay up to 2 ANY to gain an equal amount of ANY",
+    "prevInputType": "PLAY_CARD",
+    "cardContext": "Peddler",
+    "maxResources": 2,
+    "minResources": 0,
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLAY_CARD",
+    "cardContext": "Postal Pigeon",
+    "label": "Select up to 1 CARD to play for free",
+    "maxToSelect": 1,
+    "minToSelect": 0,
+    "cardOptions": [
+      "Mine",
+      "Farm"
+    ],
+    "cardOptionsUnfiltered": [
+      "Mine",
+      "Farm"
+    ],
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLAY_CARD",
+    "cardContext": "Postal Pigeon",
+    "label": "Select up to 1 CARD to play for free",
+    "maxToSelect": 1,
+    "minToSelect": 0,
+    "cardOptions": [],
+    "cardOptionsUnfiltered": [
+      "Queen",
+      "King"
+    ],
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLAY_CARD",
+    "cardContext": "Postal Pigeon",
+    "label": "Select up to 1 CARD to play for free",
+    "maxToSelect": 1,
+    "minToSelect": 0,
+    "cardOptions": [
+      "Mine",
+      "Farm"
+    ],
+    "cardOptionsUnfiltered": [
+      "Mine",
+      "Farm"
+    ],
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLAY_CARD",
+    "cardContext": "Postal Pigeon",
+    "label": "Select up to 1 CARD to play for free",
+    "maxToSelect": 1,
+    "minToSelect": 0,
+    "cardOptions": [
+      "Farm",
+      "Wanderer"
+    ],
+    "cardOptionsUnfiltered": [
+      "Farm",
+      "Wanderer"
+    ],
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLAY_CARD",
+    "cardContext": "Postal Pigeon",
+    "label": "Select up to 1 CARD to play for free",
+    "maxToSelect": 1,
+    "minToSelect": 0,
+    "cardOptions": [
+      "Farm",
+      "Wanderer"
+    ],
+    "cardOptionsUnfiltered": [
+      "Farm",
+      "Wanderer"
+    ],
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "label": "Select TWIG / RESIN / PEBBLE",
+    "prevInputType": "PLAY_CARD",
+    "cardContext": "Courthouse",
+    "options": [
+      "TWIG",
+      "RESIN",
+      "PEBBLE"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLAY_CARD",
+    "cardContext": "Postal Pigeon",
+    "label": "Select up to 1 CARD to play for free",
+    "maxToSelect": 1,
+    "minToSelect": 0,
+    "cardOptions": [
+      "Shopkeeper",
+      "Wanderer"
+    ],
+    "cardOptionsUnfiltered": [
+      "Shopkeeper",
+      "Wanderer"
+    ],
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLAY_CARD",
+    "cardContext": "Postal Pigeon",
+    "label": "Select up to 1 CARD to play for free",
+    "maxToSelect": 1,
+    "minToSelect": 0,
+    "cardOptions": [
+      "Historian",
+      "Wanderer"
+    ],
+    "cardOptionsUnfiltered": [
+      "Historian",
+      "Wanderer"
+    ],
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "label": "Select Player to give 2 CARD",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "cardContext": "Post Office",
+    "playerOptions": [
+      "7tGckixC3QgXDbHc6b3nGR"
+    ],
+    "mustSelectOne": true,
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "SELECT_PLAYER",
+    "label": [
+      "Select 2 CARD to give to ",
+      {
+        "type": "player",
+        "name": "Player #1"
+      }
+    ],
+    "prevInput": {
+      "inputType": "SELECT_PLAYER",
+      "prevInputType": "VISIT_DESTINATION_CARD",
+      "cardContext": "Post Office",
+      "playerOptions": [
+        "7tGckixC3QgXDbHc6b3nGR"
+      ],
+      "mustSelectOne": true,
+      "clientOptions": {
+        "selectedPlayer": "7tGckixC3QgXDbHc6b3nGR"
+      }
+    },
+    "cardContext": "Post Office",
+    "cardOptions": [
+      "Farm",
+      "Mine",
+      "Queen",
+      "King"
+    ],
+    "maxToSelect": 2,
+    "minToSelect": 2,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "SELECT_CARDS",
+    "label": "Select any number of CARD to discard from your hand",
+    "cardContext": "Post Office",
+    "cardOptions": [
+      "Farm",
+      "King"
+    ],
+    "maxToSelect": 2,
+    "minToSelect": 0,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "label": "Select CARD to play for free",
+    "cardOptions": [
+      "Farm",
+      "Farm"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "Queen",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "SELECT_CARDS",
+    "prevInput": {
+      "inputType": "SELECT_CARDS",
+      "prevInputType": "VISIT_DESTINATION_CARD",
+      "cardContext": "Queen",
+      "cardOptions": [
+        "Farm",
+        "Farm"
+      ],
+      "maxToSelect": 1,
+      "minToSelect": 1,
+      "clientOptions": {
+        "selectedCards": [
+          "Farm"
+        ]
+      }
+    },
+    "cardContext": "Queen",
+    "label": [
+      "Select where to play ",
+      {
+        "type": "entity",
+        "entityType": "card",
+        "card": "Farm"
+      },
+      " from"
+    ],
+    "options": [
+      "Meadow",
+      "Hand"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "label": "Select CARD to play for free",
+    "cardOptions": [
+      "Farm",
+      "Farm"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "Queen",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "SELECT_CARDS",
+    "prevInput": {
+      "inputType": "SELECT_CARDS",
+      "prevInputType": "VISIT_DESTINATION_CARD",
+      "cardContext": "Queen",
+      "cardOptions": [
+        "Farm",
+        "Farm"
+      ],
+      "maxToSelect": 1,
+      "minToSelect": 1,
+      "clientOptions": {
+        "selectedCards": [
+          "Farm"
+        ]
+      }
+    },
+    "cardContext": "Queen",
+    "label": [
+      "Select where to play ",
+      {
+        "type": "entity",
+        "entityType": "card",
+        "card": "Farm"
+      },
+      " from"
+    ],
+    "options": [
+      "Meadow",
+      "Hand"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "label": "Select CARD to play for free",
+    "cardOptions": [
+      "Husband"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "Queen",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "label": "Select CARD to play for free",
+    "cardOptions": [
+      "Postal Pigeon",
+      "Postal Pigeon",
+      "Farm",
+      "Husband",
+      "Chapel",
+      "Monk"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "Queen",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "label": "Select CARD to play for free",
+    "cardOptions": [
+      "Postal Pigeon",
+      "Postal Pigeon",
+      "Farm",
+      "Husband",
+      "Chapel",
+      "Fairgrounds"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "Queen",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "label": "Select CARD to play for free",
+    "cardOptions": [
+      "Postal Pigeon",
+      "Postal Pigeon",
+      "Farm",
+      "Husband",
+      "Chapel",
+      "Monk"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "Queen",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "label": "Select CARD to play for free",
+    "cardOptions": [
+      "Ruins"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "Queen",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PLAY_CARD",
+    "label": "Select 1 Construction to discard from your city",
+    "cardOptions": [
+      {
+        "cardOwnerId": "ewwESeCAJt5Cqzkyx2JMBV",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "ewwESeCAJt5Cqzkyx2JMBV",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "ewwESeCAJt5Cqzkyx2JMBV",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "ewwESeCAJt5Cqzkyx2JMBV",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "ewwESeCAJt5Cqzkyx2JMBV",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "ewwESeCAJt5Cqzkyx2JMBV",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "ewwESeCAJt5Cqzkyx2JMBV",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "ewwESeCAJt5Cqzkyx2JMBV",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "ewwESeCAJt5Cqzkyx2JMBV",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "ewwESeCAJt5Cqzkyx2JMBV",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "ewwESeCAJt5Cqzkyx2JMBV",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "ewwESeCAJt5Cqzkyx2JMBV",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "ewwESeCAJt5Cqzkyx2JMBV",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "ewwESeCAJt5Cqzkyx2JMBV",
+        "cardName": "Farm",
+        "usedForCritter": false
+      }
+    ],
+    "cardContext": "Ruins",
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_WORKER_PLACEMENT",
+    "label": "Select a deployed worker to move",
+    "prevInputType": "PLAY_CARD",
+    "options": [
+      {
+        "location": "ONE_STONE"
+      }
+    ],
+    "cardContext": "Ranger",
+    "mustSelectOne": true,
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_WORKER_PLACEMENT",
+    "label": "Place your worker",
+    "prevInput": {
+      "inputType": "SELECT_WORKER_PLACEMENT",
+      "prevInputType": "PLAY_CARD",
+      "cardContext": "Ranger",
+      "mustSelectOne": true,
+      "clientOptions": {
+        "selectedOption": {
+          "location": "ONE_STONE"
+        }
+      },
+      "options": [
+        {
+          "location": "ONE_STONE"
+        }
+      ]
+    },
+    "prevInputType": "SELECT_WORKER_PLACEMENT",
+    "options": [
+      {
+        "location": "ONE_BERRY"
+      },
+      {
+        "location": "ONE_BERRY_AND_ONE_CARD"
+      },
+      {
+        "location": "ONE_RESIN_AND_ONE_CARD"
+      },
+      {
+        "location": "THREE_TWIGS"
+      },
+      {
+        "location": "TWO_CARDS_AND_ONE_VP"
+      },
+      {
+        "location": "TWO_RESIN"
+      },
+      {
+        "location": "TWO_TWIGS_AND_ONE_CARD"
+      },
+      {
+        "location": "HAVEN"
+      }
+    ],
+    "cardContext": "Ranger",
+    "mustSelectOne": true,
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_WORKER_PLACEMENT",
+    "label": "Select a deployed worker to move",
+    "prevInputType": "PLAY_CARD",
+    "options": [
+      {
+        "location": "ONE_STONE"
+      },
+      {
+        "location": "TWO_TWIGS_AND_ONE_CARD"
+      }
+    ],
+    "cardContext": "Ranger",
+    "mustSelectOne": true,
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_WORKER_PLACEMENT",
+    "label": "Place your worker",
+    "prevInput": {
+      "inputType": "SELECT_WORKER_PLACEMENT",
+      "prevInputType": "PLAY_CARD",
+      "cardContext": "Ranger",
+      "mustSelectOne": true,
+      "clientOptions": {
+        "selectedOption": {
+          "location": "ONE_STONE"
+        }
+      },
+      "options": [
+        {
+          "location": "ONE_STONE"
+        },
+        {
+          "location": "TWO_TWIGS_AND_ONE_CARD"
+        }
+      ]
+    },
+    "prevInputType": "SELECT_WORKER_PLACEMENT",
+    "options": [
+      {
+        "location": "ONE_BERRY"
+      },
+      {
+        "location": "ONE_BERRY_AND_ONE_CARD"
+      },
+      {
+        "location": "ONE_RESIN_AND_ONE_CARD"
+      },
+      {
+        "location": "THREE_TWIGS"
+      },
+      {
+        "location": "TWO_CARDS_AND_ONE_VP"
+      },
+      {
+        "location": "TWO_RESIN"
+      },
+      {
+        "location": "TWO_TWIGS_AND_ONE_CARD"
+      },
+      {
+        "location": "HAVEN"
+      }
+    ],
+    "cardContext": "Ranger",
+    "mustSelectOne": true,
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PLAY_CARD",
+    "label": "Select 1 Construction to discard from your city",
+    "cardOptions": [
+      {
+        "cardOwnerId": "574xA68nkLnvpVadPnugnm",
+        "cardName": "Farm",
+        "usedForCritter": false
+      }
+    ],
+    "cardContext": "Ruins",
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PLAY_CARD",
+    "label": "Select 1 Construction to discard from your city",
+    "cardOptions": [
+      {
+        "cardOwnerId": "wCB1eZxasVJqHtBwbAfTcD",
+        "cardName": "Farm",
+        "usedForCritter": false
+      }
+    ],
+    "cardContext": "Ruins",
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "label": [
+      "Select Player to pay ",
+      {
+        "type": "text",
+        "text": "3 "
+      },
+      {
+        "type": "resource",
+        "resourceType": "BERRY"
+      },
+      " to"
+    ],
+    "prevInputType": "PLAY_CARD",
+    "prevInput": {
+      "inputType": "PLAY_CARD",
+      "clientOptions": {
+        "card": "Shepherd",
+        "source": "HAND",
+        "paymentOptions": {
+          "resources": {
+            "BERRY": 3
+          }
+        }
+      }
+    },
+    "playerOptions": [
+      "cn3FW1ChF9BxJGmCrLGQAY"
+    ],
+    "mustSelectOne": true,
+    "cardContext": "Shepherd",
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "label": [
+      "Select Player to pay ",
+      {
+        "type": "text",
+        "text": "1 "
+      },
+      {
+        "type": "resource",
+        "resourceType": "TWIG"
+      },
+      {
+        "type": "text",
+        "text": " & "
+      },
+      {
+        "type": "text",
+        "text": "2 "
+      },
+      {
+        "type": "resource",
+        "resourceType": "BERRY"
+      },
+      " to"
+    ],
+    "prevInputType": "PLAY_CARD",
+    "prevInput": {
+      "inputType": "PLAY_CARD",
+      "clientOptions": {
+        "card": "Shepherd",
+        "source": "HAND",
+        "paymentOptions": {
+          "resources": {
+            "TWIG": 1,
+            "BERRY": 2
+          }
+        }
+      }
+    },
+    "playerOptions": [
+      "udTHKuXfjZhKauLJp4b9DL"
+    ],
+    "mustSelectOne": true,
+    "cardContext": "Shepherd",
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "label": "Select CARD to play for free",
+    "cardOptions": [
+      "Shepherd"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "Queen",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "PLAY_CARD",
+    "cardContext": "Storehouse",
+    "playedCardContext": {
+      "cardOwnerId": "oaJsyw1xnk1GpXpZu6PS21",
+      "cardName": "Storehouse",
+      "usedForCritter": false,
+      "workers": [],
+      "resources": {
+        "TWIG": 0,
+        "RESIN": 0,
+        "PEBBLE": 0,
+        "BERRY": 0
+      }
+    },
+    "label": "Choose resource(s) to add",
+    "options": [
+      "3 TWIG",
+      "2 RESIN",
+      "1 PEBBLE",
+      "2 BERRY"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "PLAY_CARD",
+    "cardContext": "Storehouse",
+    "playedCardContext": {
+      "cardOwnerId": "riHQoVHUvCwDHkLzwvKBFq",
+      "cardName": "Storehouse",
+      "usedForCritter": false,
+      "workers": [],
+      "resources": {
+        "TWIG": 0,
+        "RESIN": 0,
+        "PEBBLE": 0,
+        "BERRY": 0
+      }
+    },
+    "label": "Choose resource(s) to add",
+    "options": [
+      "3 TWIG",
+      "2 RESIN",
+      "1 PEBBLE",
+      "2 BERRY"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "label": "Select 1 PRODUCTION to activate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "rpeC5JVP6ouGNWHSMwehnN",
+        "cardName": "Storehouse",
+        "usedForCritter": false,
+        "workers": [],
+        "resources": {
+          "TWIG": 0,
+          "RESIN": 0,
+          "PEBBLE": 0,
+          "BERRY": 0
+        }
+      }
+    ],
+    "cardContext": "Chip Sweep",
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "label": "Select 1 PRODUCTION to activate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "rpeC5JVP6ouGNWHSMwehnN",
+        "cardName": "Storehouse",
+        "usedForCritter": false,
+        "workers": [],
+        "resources": {
+          "TWIG": 0,
+          "RESIN": 0,
+          "PEBBLE": 0,
+          "BERRY": 0
+        }
+      }
+    ],
+    "cardContext": "Chip Sweep",
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "cardContext": "Storehouse",
+    "playedCardContext": {
+      "cardOwnerId": "rpeC5JVP6ouGNWHSMwehnN",
+      "cardName": "Storehouse",
+      "usedForCritter": false,
+      "workers": [],
+      "resources": {
+        "TWIG": 0,
+        "RESIN": 0,
+        "PEBBLE": 0,
+        "BERRY": 0
+      }
+    },
+    "label": "Choose resource(s) to add",
+    "options": [
+      "3 TWIG",
+      "2 RESIN",
+      "1 PEBBLE",
+      "2 BERRY"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "label": "Select 1 PRODUCTION to activate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "rpeC5JVP6ouGNWHSMwehnN",
+        "cardName": "Storehouse",
+        "usedForCritter": false,
+        "workers": [],
+        "resources": {
+          "TWIG": 0,
+          "RESIN": 0,
+          "PEBBLE": 0,
+          "BERRY": 0
+        }
+      }
+    ],
+    "cardContext": "Chip Sweep",
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "cardContext": "Storehouse",
+    "playedCardContext": {
+      "cardOwnerId": "rpeC5JVP6ouGNWHSMwehnN",
+      "cardName": "Storehouse",
+      "usedForCritter": false,
+      "workers": [],
+      "resources": {
+        "TWIG": 0,
+        "RESIN": 0,
+        "PEBBLE": 0,
+        "BERRY": 0
+      }
+    },
+    "label": "Choose resource(s) to add",
+    "options": [
+      "3 TWIG",
+      "2 RESIN",
+      "1 PEBBLE",
+      "2 BERRY"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "SELECT_PLAYED_CARDS",
+    "cardContext": "Storehouse",
+    "playedCardContext": {
+      "cardOwnerId": "rpeC5JVP6ouGNWHSMwehnN",
+      "cardName": "Storehouse",
+      "usedForCritter": false,
+      "workers": [],
+      "resources": {
+        "TWIG": 0,
+        "RESIN": 0,
+        "PEBBLE": 0,
+        "BERRY": 0
+      }
+    },
+    "label": "Choose resource(s) to add",
+    "options": [
+      "3 TWIG",
+      "2 RESIN",
+      "1 PEBBLE",
+      "2 BERRY"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "label": "Select 1 PRODUCTION to activate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "rpeC5JVP6ouGNWHSMwehnN",
+        "cardName": "Storehouse",
+        "usedForCritter": false,
+        "workers": [],
+        "resources": {
+          "TWIG": 3,
+          "RESIN": 0,
+          "PEBBLE": 0,
+          "BERRY": 0
+        }
+      }
+    ],
+    "cardContext": "Chip Sweep",
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "SELECT_PLAYED_CARDS",
+    "cardContext": "Storehouse",
+    "playedCardContext": {
+      "cardOwnerId": "rpeC5JVP6ouGNWHSMwehnN",
+      "cardName": "Storehouse",
+      "usedForCritter": false,
+      "workers": [],
+      "resources": {
+        "TWIG": 3,
+        "RESIN": 0,
+        "PEBBLE": 0,
+        "BERRY": 0
+      }
+    },
+    "label": "Choose resource(s) to add",
+    "options": [
+      "3 TWIG",
+      "2 RESIN",
+      "1 PEBBLE",
+      "2 BERRY"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "SELECT_PLAYED_CARDS",
+    "cardContext": "Storehouse",
+    "playedCardContext": {
+      "cardOwnerId": "rpeC5JVP6ouGNWHSMwehnN",
+      "cardName": "Storehouse",
+      "usedForCritter": false,
+      "workers": [],
+      "resources": {
+        "TWIG": 3,
+        "RESIN": 0,
+        "PEBBLE": 0,
+        "BERRY": 0
+      }
+    },
+    "label": "Choose resource(s) to add",
+    "options": [
+      "3 TWIG",
+      "2 RESIN",
+      "1 PEBBLE",
+      "2 BERRY"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "SELECT_PLAYED_CARDS",
+    "cardContext": "Storehouse",
+    "playedCardContext": {
+      "cardOwnerId": "rpeC5JVP6ouGNWHSMwehnN",
+      "cardName": "Storehouse",
+      "usedForCritter": false,
+      "workers": [],
+      "resources": {
+        "TWIG": 3,
+        "RESIN": 0,
+        "PEBBLE": 0,
+        "BERRY": 0
+      }
+    },
+    "label": "Choose resource(s) to add",
+    "options": [
+      "3 TWIG",
+      "2 RESIN",
+      "1 PEBBLE",
+      "2 BERRY"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "SELECT_PLAYED_CARDS",
+    "cardContext": "Storehouse",
+    "playedCardContext": {
+      "cardOwnerId": "rpeC5JVP6ouGNWHSMwehnN",
+      "cardName": "Storehouse",
+      "usedForCritter": false,
+      "workers": [],
+      "resources": {
+        "TWIG": 6,
+        "RESIN": 0,
+        "PEBBLE": 0,
+        "BERRY": 0
+      }
+    },
+    "label": "Choose resource(s) to add",
+    "options": [
+      "3 TWIG",
+      "2 RESIN",
+      "1 PEBBLE",
+      "2 BERRY"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "label": "Choose one CARD to keep",
+    "prevInputType": "PLAY_CARD",
+    "cardOptions": [
+      "Farm",
+      "Queen"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "Teacher",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "label": "Select player to give the other CARD",
+    "prevInputType": "SELECT_CARDS",
+    "prevInput": {
+      "inputType": "SELECT_CARDS",
+      "prevInputType": "PLAY_CARD",
+      "cardContext": "Teacher",
+      "cardOptions": [
+        "Farm",
+        "Queen"
+      ],
+      "maxToSelect": 1,
+      "minToSelect": 1,
+      "clientOptions": {
+        "selectedCards": [
+          "Farm"
+        ]
+      }
+    },
+    "playerOptions": [
+      "tS8oF7oydY49vS7cD2duyx"
+    ],
+    "mustSelectOne": true,
+    "cardContext": "Teacher",
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLAY_CARD",
+    "label": "Discard 3 CARD from the Meadow",
+    "cardOptions": [
+      "King",
+      "Queen",
+      "Postal Pigeon",
+      "Postal Pigeon",
+      "Farm",
+      "Husband",
+      "Chapel",
+      "Monk"
+    ],
+    "maxToSelect": 3,
+    "minToSelect": 3,
+    "cardContext": "Undertaker",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "SELECT_CARDS",
+    "label": "Select 1 CARD from the Meadow to keep",
+    "cardOptions": [
+      "Postal Pigeon",
+      "Postal Pigeon",
+      "Farm",
+      "Husband",
+      "Monk",
+      "School",
+      "Teacher",
+      "Wife"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "Undertaker",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "label": "Select 1 CARD to discard from your city",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "cardOptions": [
+      {
+        "cardOwnerId": "9ZXVbtqCYot7zPnLdGgrzc",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "9ZXVbtqCYot7zPnLdGgrzc",
+        "cardName": "Chapel",
+        "usedForCritter": false,
+        "workers": [],
+        "resources": {
+          "VP": 0
+        }
+      },
+      {
+        "cardOwnerId": "9ZXVbtqCYot7zPnLdGgrzc",
+        "cardName": "Monk"
+      }
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "University",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "label": "Gain 1 ANY",
+    "options": [
+      "BERRY",
+      "TWIG",
+      "RESIN",
+      "PEBBLE"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    },
+    "cardContext": "University",
+    "prevInputType": "SELECT_PLAYED_CARDS",
+    "prevInput": {
+      "inputType": "SELECT_PLAYED_CARDS",
+      "prevInputType": "VISIT_DESTINATION_CARD",
+      "cardContext": "University",
+      "cardOptions": [
+        {
+          "cardOwnerId": "9ZXVbtqCYot7zPnLdGgrzc",
+          "cardName": "Farm",
+          "usedForCritter": false
+        },
+        {
+          "cardOwnerId": "9ZXVbtqCYot7zPnLdGgrzc",
+          "cardName": "Chapel",
+          "usedForCritter": false,
+          "workers": [],
+          "resources": {
+            "VP": 0
+          }
+        },
+        {
+          "cardOwnerId": "9ZXVbtqCYot7zPnLdGgrzc",
+          "cardName": "Monk"
+        }
+      ],
+      "maxToSelect": 1,
+      "minToSelect": 1,
+      "clientOptions": {
+        "selectedCards": [
+          {
+            "cardOwnerId": "9ZXVbtqCYot7zPnLdGgrzc",
+            "cardName": "Farm",
+            "usedForCritter": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "label": "Select 1 CARD to discard from your city",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "cardOptions": [
+      {
+        "cardOwnerId": "8uKq9NeeM2TpDJTbX8UHgc",
+        "cardName": "Lookout",
+        "usedForCritter": false,
+        "workers": [
+          "8uKq9NeeM2TpDJTbX8UHgc"
+        ]
+      }
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "University",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "label": "Gain 1 ANY",
+    "options": [
+      "BERRY",
+      "TWIG",
+      "RESIN",
+      "PEBBLE"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    },
+    "cardContext": "University",
+    "prevInputType": "SELECT_PLAYED_CARDS",
+    "prevInput": {
+      "inputType": "SELECT_PLAYED_CARDS",
+      "prevInputType": "VISIT_DESTINATION_CARD",
+      "cardContext": "University",
+      "cardOptions": [
+        {
+          "cardOwnerId": "8uKq9NeeM2TpDJTbX8UHgc",
+          "cardName": "Lookout",
+          "usedForCritter": false,
+          "workers": [
+            "8uKq9NeeM2TpDJTbX8UHgc"
+          ]
+        }
+      ],
+      "maxToSelect": 1,
+      "minToSelect": 1,
+      "clientOptions": {
+        "selectedCards": [
+          {
+            "cardOwnerId": "8uKq9NeeM2TpDJTbX8UHgc",
+            "cardName": "Lookout",
+            "usedForCritter": false,
+            "workers": [
+              "8uKq9NeeM2TpDJTbX8UHgc"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "label": "Select 1 CARD to discard from your city",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "cardOptions": [
+      {
+        "cardOwnerId": "jZ1SBt1FZ3WFYvG3eSqyLJ",
+        "cardName": "Inn",
+        "usedForCritter": false,
+        "workers": [
+          "owLFSXMs9XjVdQt3iUjMWY"
+        ]
+      }
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "University",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "label": "Gain 1 ANY",
+    "options": [
+      "BERRY",
+      "TWIG",
+      "RESIN",
+      "PEBBLE"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    },
+    "cardContext": "University",
+    "prevInputType": "SELECT_PLAYED_CARDS",
+    "prevInput": {
+      "inputType": "SELECT_PLAYED_CARDS",
+      "prevInputType": "VISIT_DESTINATION_CARD",
+      "cardContext": "University",
+      "cardOptions": [
+        {
+          "cardOwnerId": "jZ1SBt1FZ3WFYvG3eSqyLJ",
+          "cardName": "Inn",
+          "usedForCritter": false,
+          "workers": [
+            "owLFSXMs9XjVdQt3iUjMWY"
+          ]
+        }
+      ],
+      "maxToSelect": 1,
+      "minToSelect": 1,
+      "clientOptions": {
+        "selectedCards": [
+          {
+            "cardOwnerId": "jZ1SBt1FZ3WFYvG3eSqyLJ",
+            "cardName": "Inn",
+            "usedForCritter": false,
+            "workers": [
+              "owLFSXMs9XjVdQt3iUjMWY"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "label": "Select 1 CARD to discard from your city",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "cardOptions": [
+      {
+        "cardOwnerId": "a1NhM6QDGGjscwzMKX56Jq",
+        "cardName": "Monastery",
+        "usedForCritter": false,
+        "workers": [
+          "a1NhM6QDGGjscwzMKX56Jq"
+        ]
+      }
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "University",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "label": "Gain 1 ANY",
+    "options": [
+      "BERRY",
+      "TWIG",
+      "RESIN",
+      "PEBBLE"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    },
+    "cardContext": "University",
+    "prevInputType": "SELECT_PLAYED_CARDS",
+    "prevInput": {
+      "inputType": "SELECT_PLAYED_CARDS",
+      "prevInputType": "VISIT_DESTINATION_CARD",
+      "cardContext": "University",
+      "cardOptions": [
+        {
+          "cardOwnerId": "a1NhM6QDGGjscwzMKX56Jq",
+          "cardName": "Monastery",
+          "usedForCritter": false,
+          "workers": [
+            "a1NhM6QDGGjscwzMKX56Jq"
+          ]
+        }
+      ],
+      "maxToSelect": 1,
+      "minToSelect": 1,
+      "clientOptions": {
+        "selectedCards": [
+          {
+            "cardOwnerId": "a1NhM6QDGGjscwzMKX56Jq",
+            "cardName": "Monastery",
+            "usedForCritter": false,
+            "workers": [
+              "a1NhM6QDGGjscwzMKX56Jq"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "toSpend": true,
+    "prevInputType": "PLAY_CARD",
+    "label": "Pay up to 3 TWIG to gain 1 VP each",
+    "cardContext": "Woodcarver",
+    "maxResources": 3,
+    "minResources": 0,
+    "specificResource": "TWIG",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Gain 2 ANY",
+    "toSpend": false,
+    "maxResources": 2,
+    "minResources": 2,
+    "clientOptions": {
+      "resources": {}
+    },
+    "cardContext": "Harbor",
+    "prevInputType": "PLAY_CARD"
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "label": "Select 1 CARD to discard from your city",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "cardOptions": [
+      {
+        "cardOwnerId": "p6WnPnT9es5JQxyR7iFJqq",
+        "cardName": "Farm",
+        "usedForCritter": false,
+        "shareSpaceWith": "Messenger"
+      },
+      {
+        "cardOwnerId": "p6WnPnT9es5JQxyR7iFJqq",
+        "cardName": "Messenger",
+        "shareSpaceWith": "Farm"
+      }
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "University",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "label": "Gain 1 ANY",
+    "options": [
+      "BERRY",
+      "TWIG",
+      "RESIN",
+      "PEBBLE"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    },
+    "cardContext": "University",
+    "prevInputType": "SELECT_PLAYED_CARDS",
+    "prevInput": {
+      "inputType": "SELECT_PLAYED_CARDS",
+      "prevInputType": "VISIT_DESTINATION_CARD",
+      "cardContext": "University",
+      "cardOptions": [
+        {
+          "cardOwnerId": "p6WnPnT9es5JQxyR7iFJqq",
+          "cardName": "Farm",
+          "usedForCritter": false,
+          "shareSpaceWith": "Messenger"
+        },
+        {
+          "cardOwnerId": "p6WnPnT9es5JQxyR7iFJqq",
+          "cardName": "Messenger",
+          "shareSpaceWith": "Farm"
+        }
+      ],
+      "maxToSelect": 1,
+      "minToSelect": 1,
+      "clientOptions": {
+        "selectedCards": [
+          {
+            "cardOwnerId": "p6WnPnT9es5JQxyR7iFJqq",
+            "cardName": "Farm",
+            "usedForCritter": false,
+            "shareSpaceWith": "Messenger"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "label": "Select 1 CARD to discard from your city",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "cardOptions": [
+      {
+        "cardOwnerId": "j2dV3nYi4q744hEegGCgfn",
+        "cardName": "Farm",
+        "usedForCritter": false,
+        "shareSpaceWith": "Messenger"
+      },
+      {
+        "cardOwnerId": "j2dV3nYi4q744hEegGCgfn",
+        "cardName": "Messenger",
+        "shareSpaceWith": "Farm"
+      }
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "University",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "label": "Gain 1 ANY",
+    "options": [
+      "BERRY",
+      "TWIG",
+      "RESIN",
+      "PEBBLE"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    },
+    "cardContext": "University",
+    "prevInputType": "SELECT_PLAYED_CARDS",
+    "prevInput": {
+      "inputType": "SELECT_PLAYED_CARDS",
+      "prevInputType": "VISIT_DESTINATION_CARD",
+      "cardContext": "University",
+      "cardOptions": [
+        {
+          "cardOwnerId": "j2dV3nYi4q744hEegGCgfn",
+          "cardName": "Farm",
+          "usedForCritter": false,
+          "shareSpaceWith": "Messenger"
+        },
+        {
+          "cardOwnerId": "j2dV3nYi4q744hEegGCgfn",
+          "cardName": "Messenger",
+          "shareSpaceWith": "Farm"
+        }
+      ],
+      "maxToSelect": 1,
+      "minToSelect": 1,
+      "clientOptions": {
+        "selectedCards": [
+          {
+            "cardOwnerId": "j2dV3nYi4q744hEegGCgfn",
+            "cardName": "Messenger",
+            "shareSpaceWith": "Farm"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "label": "Select 1 CARD to discard from your city",
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "cardOptions": [
+      {
+        "cardOwnerId": "kQgN1RpRZ1zgZtLAVjKQtd",
+        "cardName": "Farm",
+        "usedForCritter": false,
+        "shareSpaceWith": "Messenger"
+      },
+      {
+        "cardOwnerId": "kQgN1RpRZ1zgZtLAVjKQtd",
+        "cardName": "Messenger",
+        "shareSpaceWith": "Farm"
+      },
+      {
+        "cardOwnerId": "kQgN1RpRZ1zgZtLAVjKQtd",
+        "cardName": "Messenger",
+        "shareSpaceWith": "University"
+      }
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "cardContext": "University",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "label": "Gain 1 ANY",
+    "options": [
+      "BERRY",
+      "TWIG",
+      "RESIN",
+      "PEBBLE"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    },
+    "cardContext": "University",
+    "prevInputType": "SELECT_PLAYED_CARDS",
+    "prevInput": {
+      "inputType": "SELECT_PLAYED_CARDS",
+      "prevInputType": "VISIT_DESTINATION_CARD",
+      "cardContext": "University",
+      "cardOptions": [
+        {
+          "cardOwnerId": "kQgN1RpRZ1zgZtLAVjKQtd",
+          "cardName": "Farm",
+          "usedForCritter": false,
+          "shareSpaceWith": "Messenger"
+        },
+        {
+          "cardOwnerId": "kQgN1RpRZ1zgZtLAVjKQtd",
+          "cardName": "Messenger",
+          "shareSpaceWith": "Farm"
+        },
+        {
+          "cardOwnerId": "kQgN1RpRZ1zgZtLAVjKQtd",
+          "cardName": "Messenger",
+          "shareSpaceWith": "University"
+        }
+      ],
+      "maxToSelect": 1,
+      "minToSelect": 1,
+      "clientOptions": {
+        "selectedCards": [
+          {
+            "cardOwnerId": "kQgN1RpRZ1zgZtLAVjKQtd",
+            "cardName": "Farm",
+            "usedForCritter": false,
+            "shareSpaceWith": "Messenger"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "label": [
+      "Move to another Player's city",
+      " (Gain 1 ANY and 1 VP per PEARL that opponent has, up to a max of 3)"
+    ],
+    "prevInputType": "VISIT_DESTINATION_CARD",
+    "prevInput": {
+      "inputType": "VISIT_DESTINATION_CARD",
+      "clientOptions": {
+        "playedCard": {
+          "cardOwnerId": "4GhdFM6WFbi2xKyd3Q5xCu",
+          "cardName": "Pirate Ship",
+          "usedForCritter": false,
+          "workers": []
+        }
+      }
+    },
+    "cardContext": "Pirate Ship",
+    "playerOptions": [
+      "7xpmM5ensARakb2TuN7ncM",
+      "9Twg5iu9RWhxwELks3orae"
+    ],
+    "mustSelectOne": true,
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Gain 2 ANY",
+    "toSpend": false,
+    "maxResources": 2,
+    "minResources": 2,
+    "clientOptions": {
+      "resources": {}
+    },
+    "cardContext": "Pirate Ship",
+    "prevInputType": "SELECT_PLAYER"
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Gain 2 ANY",
+    "toSpend": false,
+    "maxResources": 2,
+    "minResources": 2,
+    "clientOptions": {
+      "resources": {}
+    },
+    "cardContext": "Pirate Ship",
+    "prevInputType": "SELECT_PLAYER"
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Gain 2 ANY",
+    "toSpend": false,
+    "maxResources": 2,
+    "minResources": 2,
+    "clientOptions": {
+      "resources": {}
+    },
+    "cardContext": "Pirate Ship",
+    "prevInputType": "SELECT_PLAYER"
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Gain 2 ANY",
+    "toSpend": false,
+    "maxResources": 2,
+    "minResources": 2,
+    "clientOptions": {
+      "resources": {}
+    },
+    "cardContext": "Pirate Ship",
+    "prevInputType": "SELECT_PLAYER"
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Gain 3 ANY",
+    "toSpend": false,
+    "maxResources": 3,
+    "minResources": 3,
+    "clientOptions": {
+      "resources": {}
+    },
+    "cardContext": "Pirate Ship",
+    "prevInputType": "SELECT_PLAYER"
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Gain 3 ANY",
+    "toSpend": false,
+    "maxResources": 3,
+    "minResources": 3,
+    "clientOptions": {
+      "resources": {}
+    },
+    "cardContext": "Pirate Ship",
+    "prevInputType": "SELECT_PLAYER"
+  },
+  {
+    "inputType": "SELECT_RIVER_DESTINATION",
+    "label": "Copy any revealed River Destination",
+    "prevInputType": "PLACE_AMBASSADOR",
+    "options": [
+      "Ballroom"
+    ],
+    "cardContext": "Ferry",
+    "clientOptions": {
+      "riverDestination": null
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "PLACE_AMBASSADOR",
+    "riverDestinationContext": "Ballroom",
+    "label": "Spend 1 RESIN and 1 VP to draw 3 CARD and gain 1 PEARL",
+    "options": [
+      "Ok",
+      "Decline"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "PLACE_AMBASSADOR",
+    "riverDestinationContext": "Ballroom",
+    "label": "Spend 1 RESIN and 1 VP to draw 3 CARD and gain 1 PEARL",
+    "options": [
+      "Ok",
+      "Decline"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "PLACE_AMBASSADOR",
+    "riverDestinationContext": "Ballroom",
+    "label": "Spend 1 RESIN and 1 VP to draw 3 CARD and gain 1 PEARL",
+    "options": [
+      "Ok",
+      "Decline"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "PLACE_AMBASSADOR",
+    "riverDestinationContext": "Ballroom",
+    "label": "Spend 1 RESIN and 1 VP to draw 3 CARD and gain 1 PEARL",
+    "options": [
+      "Ok",
+      "Decline"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "PLACE_AMBASSADOR",
+    "riverDestinationContext": "Ballroom",
+    "label": "Spend 1 RESIN and 1 VP to draw 3 CARD and gain 1 PEARL",
+    "options": [
+      "Ok",
+      "Decline"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "DISCARD_CARDS",
+    "prevInputType": "PLAY_CARD",
+    "cardContext": "Pirate",
+    "label": "Discard up to 4 CARD",
+    "minCards": 0,
+    "maxCards": 4,
+    "clientOptions": {
+      "cardsToDiscard": []
+    }
+  },
+  {
+    "inputType": "DISCARD_CARDS",
+    "prevInputType": "PLAY_CARD",
+    "cardContext": "Pirate",
+    "label": "Discard up to 4 CARD",
+    "minCards": 0,
+    "maxCards": 4,
+    "clientOptions": {
+      "cardsToDiscard": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "CLAIM_EVENT",
+    "label": [
+      "Place up to 3 ",
+      {
+        "type": "em",
+        "text": "Critters"
+      },
+      " from your hand beneath this Event (",
+      {
+        "type": "points",
+        "value": 2
+      },
+      " each)"
+    ],
+    "eventContext": "Graduation of Scholars",
+    "cardOptions": [
+      "Postal Pigeon",
+      "Husband",
+      "Wife",
+      "Fool"
+    ],
+    "maxToSelect": 3,
+    "minToSelect": 0,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "CLAIM_EVENT",
+    "label": "Discard 2 CARD from your city",
+    "eventContext": "Croak Wart Cure",
+    "cardOptions": [
+      {
+        "cardOwnerId": "g7qWMsXPRhWW4JwJGThgbg",
+        "cardName": "Undertaker"
+      },
+      {
+        "cardOwnerId": "g7qWMsXPRhWW4JwJGThgbg",
+        "cardName": "Barge Toad"
+      },
+      {
+        "cardOwnerId": "g7qWMsXPRhWW4JwJGThgbg",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "g7qWMsXPRhWW4JwJGThgbg",
+        "cardName": "Castle",
+        "usedForCritter": false
+      }
+    ],
+    "maxToSelect": 2,
+    "minToSelect": 2,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "CLAIM_EVENT",
+    "label": [
+      "Place up to 2 ",
+      {
+        "type": "em",
+        "text": "Critters"
+      },
+      " from your city beneath this Event. (",
+      {
+        "type": "points",
+        "value": 3
+      },
+      " each)"
+    ],
+    "eventContext": "Capture of the Acorn Thieves",
+    "cardOptions": [
+      {
+        "cardOwnerId": "uSMqNPiTLqv8cMSbhcqr4V",
+        "cardName": "Ranger"
+      },
+      {
+        "cardOwnerId": "uSMqNPiTLqv8cMSbhcqr4V",
+        "cardName": "Postal Pigeon"
+      },
+      {
+        "cardOwnerId": "uSMqNPiTLqv8cMSbhcqr4V",
+        "cardName": "Wife"
+      },
+      {
+        "cardOwnerId": "uSMqNPiTLqv8cMSbhcqr4V",
+        "cardName": "Queen",
+        "workers": []
+      }
+    ],
+    "maxToSelect": 2,
+    "minToSelect": 0,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "toSpend": true,
+    "label": [
+      "Place up to 3 TWIG here (",
+      {
+        "type": "points",
+        "value": 2
+      },
+      " each)"
+    ],
+    "prevInputType": "CLAIM_EVENT",
+    "eventContext": "An Evening of Fireworks",
+    "maxResources": 3,
+    "minResources": 0,
+    "specificResource": "TWIG",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "toSpend": true,
+    "label": [
+      "Place up to 3 TWIG here (",
+      {
+        "type": "points",
+        "value": 2
+      },
+      " each)"
+    ],
+    "prevInputType": "CLAIM_EVENT",
+    "eventContext": "An Evening of Fireworks",
+    "maxResources": 3,
+    "minResources": 0,
+    "specificResource": "TWIG",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "toSpend": true,
+    "label": [
+      "Place up to 3 BERRY here (",
+      {
+        "type": "points",
+        "value": 2
+      },
+      " each)"
+    ],
+    "prevInputType": "CLAIM_EVENT",
+    "eventContext": "Performer in Residence",
+    "specificResource": "BERRY",
+    "maxResources": 3,
+    "minResources": 0,
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "toSpend": true,
+    "label": [
+      "Place up to 3 BERRY here (",
+      {
+        "type": "points",
+        "value": 2
+      },
+      " each)"
+    ],
+    "prevInputType": "CLAIM_EVENT",
+    "eventContext": "Performer in Residence",
+    "specificResource": "BERRY",
+    "maxResources": 3,
+    "minResources": 0,
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": [
+      "Place up to 3 ANY here (",
+      {
+        "type": "points",
+        "value": 1
+      },
+      " per BERRY / TWIG & ",
+      {
+        "type": "points",
+        "value": 2
+      },
+      " per RESIN / PEBBLE)"
+    ],
+    "toSpend": true,
+    "prevInputType": "CLAIM_EVENT",
+    "eventContext": "Under New Management",
+    "maxResources": 3,
+    "minResources": 0,
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": [
+      "Place up to 3 ANY here (",
+      {
+        "type": "points",
+        "value": 1
+      },
+      " per BERRY / TWIG & ",
+      {
+        "type": "points",
+        "value": 2
+      },
+      " per RESIN / PEBBLE)"
+    ],
+    "toSpend": true,
+    "prevInputType": "CLAIM_EVENT",
+    "eventContext": "Under New Management",
+    "maxResources": 3,
+    "minResources": 0,
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": [
+      "Place up to 3 ANY here (",
+      {
+        "type": "points",
+        "value": 1
+      },
+      " per BERRY / TWIG & ",
+      {
+        "type": "points",
+        "value": 2
+      },
+      " per RESIN / PEBBLE)"
+    ],
+    "toSpend": true,
+    "prevInputType": "CLAIM_EVENT",
+    "eventContext": "Under New Management",
+    "maxResources": 3,
+    "minResources": 0,
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Gain 2 ANY",
+    "toSpend": false,
+    "maxResources": 2,
+    "minResources": 2,
+    "clientOptions": {
+      "resources": {}
+    },
+    "eventContext": "Pristine Chapel Ceiling",
+    "prevInputType": "CLAIM_EVENT"
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "CLAIM_EVENT",
+    "label": [
+      "Select up to 5 CARD to keep. The rest will be placed beneath this Event (",
+      {
+        "type": "points",
+        "value": 1
+      },
+      " each)."
+    ],
+    "eventContext": "Ancient Scrolls Discovered",
+    "maxToSelect": 5,
+    "minToSelect": 0,
+    "cardOptions": [
+      "Queen",
+      "Fool",
+      "Postal Pigeon",
+      "Queen",
+      "King"
+    ],
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "CLAIM_EVENT",
+    "label": [
+      "Select up to 5 CARD to keep. The rest will be placed beneath this Event (",
+      {
+        "type": "points",
+        "value": 1
+      },
+      " each)."
+    ],
+    "eventContext": "Ancient Scrolls Discovered",
+    "maxToSelect": 5,
+    "minToSelect": 0,
+    "cardOptions": [
+      "Queen",
+      "Fool",
+      "Postal Pigeon",
+      "Queen",
+      "King"
+    ],
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "CLAIM_EVENT",
+    "label": [
+      "Select up to 5 CARD to keep. The rest will be placed beneath this Event (",
+      {
+        "type": "points",
+        "value": 1
+      },
+      " each)."
+    ],
+    "eventContext": "Ancient Scrolls Discovered",
+    "maxToSelect": 5,
+    "minToSelect": 0,
+    "cardOptions": [
+      "Queen",
+      "Fool",
+      "Postal Pigeon",
+      "Queen",
+      "King"
+    ],
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_WORKER_PLACEMENT",
+    "label": "Select a deployed worker to bring back",
+    "prevInputType": "CLAIM_EVENT",
+    "options": [
+      {
+        "location": "ONE_BERRY"
+      },
+      {
+        "event": "A Wee Run City"
+      }
+    ],
+    "eventContext": "A Wee Run City",
+    "mustSelectOne": true,
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_WORKER_PLACEMENT",
+    "label": "Select a deployed worker to bring back",
+    "prevInputType": "CLAIM_EVENT",
+    "options": [
+      {
+        "location": "ONE_BERRY"
+      },
+      {
+        "event": "A Wee Run City"
+      }
+    ],
+    "eventContext": "A Wee Run City",
+    "mustSelectOne": true,
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_WORKER_PLACEMENT",
+    "label": "Select a deployed worker to bring back",
+    "prevInputType": "CLAIM_EVENT",
+    "options": [
+      {
+        "event": "A Wee Run City"
+      }
+    ],
+    "eventContext": "A Wee Run City",
+    "mustSelectOne": true,
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "CLAIM_EVENT",
+      "clientOptions": {
+        "event": "A Brilliant Marketing Plan"
+      }
+    },
+    "label": [
+      "You may select a player to give resources to (",
+      {
+        "type": "points",
+        "value": 2
+      },
+      " each)"
+    ],
+    "prevInputType": "CLAIM_EVENT",
+    "playerOptions": [
+      "sqn7UvSNUt9D6pYk3oFGMw"
+    ],
+    "mustSelectOne": false,
+    "eventContext": "A Brilliant Marketing Plan",
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": [
+      "Give up to 3 ANY to ",
+      {
+        "type": "player",
+        "name": "Player #1"
+      }
+    ],
+    "toSpend": true,
+    "prevInputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_PLAYER",
+      "prevInput": {
+        "inputType": "CLAIM_EVENT",
+        "clientOptions": {
+          "event": "A Brilliant Marketing Plan"
+        }
+      },
+      "prevInputType": "CLAIM_EVENT",
+      "playerOptions": [
+        "sqn7UvSNUt9D6pYk3oFGMw"
+      ],
+      "mustSelectOne": false,
+      "eventContext": "A Brilliant Marketing Plan",
+      "clientOptions": {
+        "selectedPlayer": "sqn7UvSNUt9D6pYk3oFGMw"
+      }
+    },
+    "maxResources": 3,
+    "minResources": 0,
+    "eventContext": "A Brilliant Marketing Plan",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "CLAIM_EVENT",
+      "clientOptions": {
+        "event": "A Brilliant Marketing Plan"
+      }
+    },
+    "label": [
+      "You may select a player to give resources to (",
+      {
+        "type": "points",
+        "value": 2
+      },
+      " each)"
+    ],
+    "prevInputType": "CLAIM_EVENT",
+    "playerOptions": [
+      "jRatjLjSq5YAJgw2kXf24F",
+      "ao16k7Y4yMd4WW7NxXY3HX",
+      "uJicwPBgRU3h92WmcZbbi8"
+    ],
+    "mustSelectOne": false,
+    "eventContext": "A Brilliant Marketing Plan",
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": [
+      "Give up to 3 ANY to ",
+      {
+        "type": "player",
+        "name": "Player #1"
+      }
+    ],
+    "toSpend": true,
+    "prevInputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_PLAYER",
+      "prevInput": {
+        "inputType": "CLAIM_EVENT",
+        "clientOptions": {
+          "event": "A Brilliant Marketing Plan"
+        }
+      },
+      "prevInputType": "CLAIM_EVENT",
+      "playerOptions": [
+        "jRatjLjSq5YAJgw2kXf24F",
+        "ao16k7Y4yMd4WW7NxXY3HX",
+        "uJicwPBgRU3h92WmcZbbi8"
+      ],
+      "mustSelectOne": false,
+      "eventContext": "A Brilliant Marketing Plan",
+      "clientOptions": {
+        "selectedPlayer": "jRatjLjSq5YAJgw2kXf24F"
+      }
+    },
+    "maxResources": 3,
+    "minResources": 0,
+    "eventContext": "A Brilliant Marketing Plan",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_RESOURCES",
+      "toSpend": true,
+      "prevInputType": "SELECT_PLAYER",
+      "prevInput": {
+        "inputType": "SELECT_PLAYER",
+        "prevInput": {
+          "inputType": "CLAIM_EVENT",
+          "clientOptions": {
+            "event": "A Brilliant Marketing Plan"
+          }
+        },
+        "prevInputType": "CLAIM_EVENT",
+        "playerOptions": [
+          "jRatjLjSq5YAJgw2kXf24F",
+          "ao16k7Y4yMd4WW7NxXY3HX",
+          "uJicwPBgRU3h92WmcZbbi8"
+        ],
+        "mustSelectOne": false,
+        "eventContext": "A Brilliant Marketing Plan",
+        "clientOptions": {
+          "selectedPlayer": "jRatjLjSq5YAJgw2kXf24F"
+        }
+      },
+      "maxResources": 3,
+      "minResources": 0,
+      "eventContext": "A Brilliant Marketing Plan",
+      "clientOptions": {
+        "resources": {
+          "TWIG": 1
+        }
+      }
+    },
+    "label": [
+      "You may select a player to give resources to (",
+      {
+        "type": "points",
+        "value": 2
+      },
+      " each)"
+    ],
+    "prevInputType": "SELECT_RESOURCES",
+    "playerOptions": [
+      "jRatjLjSq5YAJgw2kXf24F",
+      "ao16k7Y4yMd4WW7NxXY3HX",
+      "uJicwPBgRU3h92WmcZbbi8"
+    ],
+    "mustSelectOne": false,
+    "eventContext": "A Brilliant Marketing Plan",
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": [
+      "Give up to 2 ANY to ",
+      {
+        "type": "player",
+        "name": "Player #3"
+      }
+    ],
+    "toSpend": true,
+    "prevInputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_PLAYER",
+      "prevInputType": "SELECT_RESOURCES",
+      "prevInput": {
+        "inputType": "SELECT_RESOURCES",
+        "toSpend": true,
+        "prevInputType": "SELECT_PLAYER",
+        "prevInput": {
+          "inputType": "SELECT_PLAYER",
+          "prevInput": {
+            "inputType": "CLAIM_EVENT",
+            "clientOptions": {
+              "event": "A Brilliant Marketing Plan"
+            }
+          },
+          "prevInputType": "CLAIM_EVENT",
+          "playerOptions": [
+            "jRatjLjSq5YAJgw2kXf24F",
+            "ao16k7Y4yMd4WW7NxXY3HX",
+            "uJicwPBgRU3h92WmcZbbi8"
+          ],
+          "mustSelectOne": false,
+          "eventContext": "A Brilliant Marketing Plan",
+          "clientOptions": {
+            "selectedPlayer": "jRatjLjSq5YAJgw2kXf24F"
+          }
+        },
+        "maxResources": 3,
+        "minResources": 0,
+        "eventContext": "A Brilliant Marketing Plan",
+        "clientOptions": {
+          "resources": {
+            "TWIG": 1
+          }
+        }
+      },
+      "playerOptions": [
+        "jRatjLjSq5YAJgw2kXf24F",
+        "ao16k7Y4yMd4WW7NxXY3HX",
+        "uJicwPBgRU3h92WmcZbbi8"
+      ],
+      "mustSelectOne": false,
+      "eventContext": "A Brilliant Marketing Plan",
+      "clientOptions": {
+        "selectedPlayer": "uJicwPBgRU3h92WmcZbbi8"
+      }
+    },
+    "maxResources": 2,
+    "minResources": 0,
+    "eventContext": "A Brilliant Marketing Plan",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_RESOURCES",
+      "toSpend": true,
+      "prevInputType": "SELECT_PLAYER",
+      "prevInput": {
+        "inputType": "SELECT_PLAYER",
+        "prevInputType": "SELECT_RESOURCES",
+        "prevInput": {
+          "inputType": "SELECT_RESOURCES",
+          "toSpend": true,
+          "prevInputType": "SELECT_PLAYER",
+          "prevInput": {
+            "inputType": "SELECT_PLAYER",
+            "prevInput": {
+              "inputType": "CLAIM_EVENT",
+              "clientOptions": {
+                "event": "A Brilliant Marketing Plan"
+              }
+            },
+            "prevInputType": "CLAIM_EVENT",
+            "playerOptions": [
+              "jRatjLjSq5YAJgw2kXf24F",
+              "ao16k7Y4yMd4WW7NxXY3HX",
+              "uJicwPBgRU3h92WmcZbbi8"
+            ],
+            "mustSelectOne": false,
+            "eventContext": "A Brilliant Marketing Plan",
+            "clientOptions": {
+              "selectedPlayer": "jRatjLjSq5YAJgw2kXf24F"
+            }
+          },
+          "maxResources": 3,
+          "minResources": 0,
+          "eventContext": "A Brilliant Marketing Plan",
+          "clientOptions": {
+            "resources": {
+              "TWIG": 1
+            }
+          }
+        },
+        "playerOptions": [
+          "jRatjLjSq5YAJgw2kXf24F",
+          "ao16k7Y4yMd4WW7NxXY3HX",
+          "uJicwPBgRU3h92WmcZbbi8"
+        ],
+        "mustSelectOne": false,
+        "eventContext": "A Brilliant Marketing Plan",
+        "clientOptions": {
+          "selectedPlayer": "uJicwPBgRU3h92WmcZbbi8"
+        }
+      },
+      "maxResources": 2,
+      "minResources": 0,
+      "eventContext": "A Brilliant Marketing Plan",
+      "clientOptions": {
+        "resources": {
+          "RESIN": 1
+        }
+      }
+    },
+    "label": [
+      "You may select a player to give resources to (",
+      {
+        "type": "points",
+        "value": 2
+      },
+      " each)"
+    ],
+    "prevInputType": "SELECT_RESOURCES",
+    "playerOptions": [
+      "jRatjLjSq5YAJgw2kXf24F",
+      "ao16k7Y4yMd4WW7NxXY3HX",
+      "uJicwPBgRU3h92WmcZbbi8"
+    ],
+    "mustSelectOne": false,
+    "eventContext": "A Brilliant Marketing Plan",
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": [
+      "Give up to 1 ANY to ",
+      {
+        "type": "player",
+        "name": "Player #2"
+      }
+    ],
+    "toSpend": true,
+    "prevInputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_PLAYER",
+      "prevInputType": "SELECT_RESOURCES",
+      "prevInput": {
+        "inputType": "SELECT_RESOURCES",
+        "toSpend": true,
+        "prevInputType": "SELECT_PLAYER",
+        "prevInput": {
+          "inputType": "SELECT_PLAYER",
+          "prevInputType": "SELECT_RESOURCES",
+          "prevInput": {
+            "inputType": "SELECT_RESOURCES",
+            "toSpend": true,
+            "prevInputType": "SELECT_PLAYER",
+            "prevInput": {
+              "inputType": "SELECT_PLAYER",
+              "prevInput": {
+                "inputType": "CLAIM_EVENT",
+                "clientOptions": {
+                  "event": "A Brilliant Marketing Plan"
+                }
+              },
+              "prevInputType": "CLAIM_EVENT",
+              "playerOptions": [
+                "jRatjLjSq5YAJgw2kXf24F",
+                "ao16k7Y4yMd4WW7NxXY3HX",
+                "uJicwPBgRU3h92WmcZbbi8"
+              ],
+              "mustSelectOne": false,
+              "eventContext": "A Brilliant Marketing Plan",
+              "clientOptions": {
+                "selectedPlayer": "jRatjLjSq5YAJgw2kXf24F"
+              }
+            },
+            "maxResources": 3,
+            "minResources": 0,
+            "eventContext": "A Brilliant Marketing Plan",
+            "clientOptions": {
+              "resources": {
+                "TWIG": 1
+              }
+            }
+          },
+          "playerOptions": [
+            "jRatjLjSq5YAJgw2kXf24F",
+            "ao16k7Y4yMd4WW7NxXY3HX",
+            "uJicwPBgRU3h92WmcZbbi8"
+          ],
+          "mustSelectOne": false,
+          "eventContext": "A Brilliant Marketing Plan",
+          "clientOptions": {
+            "selectedPlayer": "uJicwPBgRU3h92WmcZbbi8"
+          }
+        },
+        "maxResources": 2,
+        "minResources": 0,
+        "eventContext": "A Brilliant Marketing Plan",
+        "clientOptions": {
+          "resources": {
+            "RESIN": 1
+          }
+        }
+      },
+      "playerOptions": [
+        "jRatjLjSq5YAJgw2kXf24F",
+        "ao16k7Y4yMd4WW7NxXY3HX",
+        "uJicwPBgRU3h92WmcZbbi8"
+      ],
+      "mustSelectOne": false,
+      "eventContext": "A Brilliant Marketing Plan",
+      "clientOptions": {
+        "selectedPlayer": "ao16k7Y4yMd4WW7NxXY3HX"
+      }
+    },
+    "maxResources": 1,
+    "minResources": 0,
+    "eventContext": "A Brilliant Marketing Plan",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "CLAIM_EVENT",
+      "clientOptions": {
+        "event": "A Brilliant Marketing Plan"
+      }
+    },
+    "label": [
+      "You may select a player to give resources to (",
+      {
+        "type": "points",
+        "value": 2
+      },
+      " each)"
+    ],
+    "prevInputType": "CLAIM_EVENT",
+    "playerOptions": [
+      "jQ8UxcTejzJ2et4ihcWUbJ",
+      "h4bE5vZQMJ4JzV3cAUPTY2",
+      "nrH6gLjP1YtwfvqoiwLXkg"
+    ],
+    "mustSelectOne": false,
+    "eventContext": "A Brilliant Marketing Plan",
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": [
+      "Give up to 3 ANY to ",
+      {
+        "type": "player",
+        "name": "Player #1"
+      }
+    ],
+    "toSpend": true,
+    "prevInputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_PLAYER",
+      "prevInput": {
+        "inputType": "CLAIM_EVENT",
+        "clientOptions": {
+          "event": "A Brilliant Marketing Plan"
+        }
+      },
+      "prevInputType": "CLAIM_EVENT",
+      "playerOptions": [
+        "jQ8UxcTejzJ2et4ihcWUbJ",
+        "h4bE5vZQMJ4JzV3cAUPTY2",
+        "nrH6gLjP1YtwfvqoiwLXkg"
+      ],
+      "mustSelectOne": false,
+      "eventContext": "A Brilliant Marketing Plan",
+      "clientOptions": {
+        "selectedPlayer": "jQ8UxcTejzJ2et4ihcWUbJ"
+      }
+    },
+    "maxResources": 3,
+    "minResources": 0,
+    "eventContext": "A Brilliant Marketing Plan",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_RESOURCES",
+      "toSpend": true,
+      "prevInputType": "SELECT_PLAYER",
+      "prevInput": {
+        "inputType": "SELECT_PLAYER",
+        "prevInput": {
+          "inputType": "CLAIM_EVENT",
+          "clientOptions": {
+            "event": "A Brilliant Marketing Plan"
+          }
+        },
+        "prevInputType": "CLAIM_EVENT",
+        "playerOptions": [
+          "jQ8UxcTejzJ2et4ihcWUbJ",
+          "h4bE5vZQMJ4JzV3cAUPTY2",
+          "nrH6gLjP1YtwfvqoiwLXkg"
+        ],
+        "mustSelectOne": false,
+        "eventContext": "A Brilliant Marketing Plan",
+        "clientOptions": {
+          "selectedPlayer": "jQ8UxcTejzJ2et4ihcWUbJ"
+        }
+      },
+      "maxResources": 3,
+      "minResources": 0,
+      "eventContext": "A Brilliant Marketing Plan",
+      "clientOptions": {
+        "resources": {
+          "TWIG": 1
+        }
+      }
+    },
+    "label": [
+      "You may select a player to give resources to (",
+      {
+        "type": "points",
+        "value": 2
+      },
+      " each)"
+    ],
+    "prevInputType": "SELECT_RESOURCES",
+    "playerOptions": [
+      "jQ8UxcTejzJ2et4ihcWUbJ",
+      "h4bE5vZQMJ4JzV3cAUPTY2",
+      "nrH6gLjP1YtwfvqoiwLXkg"
+    ],
+    "mustSelectOne": false,
+    "eventContext": "A Brilliant Marketing Plan",
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": [
+      "Give up to 2 ANY to ",
+      {
+        "type": "player",
+        "name": "Player #3"
+      }
+    ],
+    "toSpend": true,
+    "prevInputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_PLAYER",
+      "prevInputType": "SELECT_RESOURCES",
+      "prevInput": {
+        "inputType": "SELECT_RESOURCES",
+        "toSpend": true,
+        "prevInputType": "SELECT_PLAYER",
+        "prevInput": {
+          "inputType": "SELECT_PLAYER",
+          "prevInput": {
+            "inputType": "CLAIM_EVENT",
+            "clientOptions": {
+              "event": "A Brilliant Marketing Plan"
+            }
+          },
+          "prevInputType": "CLAIM_EVENT",
+          "playerOptions": [
+            "jQ8UxcTejzJ2et4ihcWUbJ",
+            "h4bE5vZQMJ4JzV3cAUPTY2",
+            "nrH6gLjP1YtwfvqoiwLXkg"
+          ],
+          "mustSelectOne": false,
+          "eventContext": "A Brilliant Marketing Plan",
+          "clientOptions": {
+            "selectedPlayer": "jQ8UxcTejzJ2et4ihcWUbJ"
+          }
+        },
+        "maxResources": 3,
+        "minResources": 0,
+        "eventContext": "A Brilliant Marketing Plan",
+        "clientOptions": {
+          "resources": {
+            "TWIG": 1
+          }
+        }
+      },
+      "playerOptions": [
+        "jQ8UxcTejzJ2et4ihcWUbJ",
+        "h4bE5vZQMJ4JzV3cAUPTY2",
+        "nrH6gLjP1YtwfvqoiwLXkg"
+      ],
+      "mustSelectOne": false,
+      "eventContext": "A Brilliant Marketing Plan",
+      "clientOptions": {
+        "selectedPlayer": "nrH6gLjP1YtwfvqoiwLXkg"
+      }
+    },
+    "maxResources": 2,
+    "minResources": 0,
+    "eventContext": "A Brilliant Marketing Plan",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_RESOURCES",
+      "toSpend": true,
+      "prevInputType": "SELECT_PLAYER",
+      "prevInput": {
+        "inputType": "SELECT_PLAYER",
+        "prevInputType": "SELECT_RESOURCES",
+        "prevInput": {
+          "inputType": "SELECT_RESOURCES",
+          "toSpend": true,
+          "prevInputType": "SELECT_PLAYER",
+          "prevInput": {
+            "inputType": "SELECT_PLAYER",
+            "prevInput": {
+              "inputType": "CLAIM_EVENT",
+              "clientOptions": {
+                "event": "A Brilliant Marketing Plan"
+              }
+            },
+            "prevInputType": "CLAIM_EVENT",
+            "playerOptions": [
+              "jQ8UxcTejzJ2et4ihcWUbJ",
+              "h4bE5vZQMJ4JzV3cAUPTY2",
+              "nrH6gLjP1YtwfvqoiwLXkg"
+            ],
+            "mustSelectOne": false,
+            "eventContext": "A Brilliant Marketing Plan",
+            "clientOptions": {
+              "selectedPlayer": "jQ8UxcTejzJ2et4ihcWUbJ"
+            }
+          },
+          "maxResources": 3,
+          "minResources": 0,
+          "eventContext": "A Brilliant Marketing Plan",
+          "clientOptions": {
+            "resources": {
+              "TWIG": 1
+            }
+          }
+        },
+        "playerOptions": [
+          "jQ8UxcTejzJ2et4ihcWUbJ",
+          "h4bE5vZQMJ4JzV3cAUPTY2",
+          "nrH6gLjP1YtwfvqoiwLXkg"
+        ],
+        "mustSelectOne": false,
+        "eventContext": "A Brilliant Marketing Plan",
+        "clientOptions": {
+          "selectedPlayer": "nrH6gLjP1YtwfvqoiwLXkg"
+        }
+      },
+      "maxResources": 2,
+      "minResources": 0,
+      "eventContext": "A Brilliant Marketing Plan",
+      "clientOptions": {
+        "resources": {
+          "RESIN": 1
+        }
+      }
+    },
+    "label": [
+      "You may select a player to give resources to (",
+      {
+        "type": "points",
+        "value": 2
+      },
+      " each)"
+    ],
+    "prevInputType": "SELECT_RESOURCES",
+    "playerOptions": [
+      "jQ8UxcTejzJ2et4ihcWUbJ",
+      "h4bE5vZQMJ4JzV3cAUPTY2",
+      "nrH6gLjP1YtwfvqoiwLXkg"
+    ],
+    "mustSelectOne": false,
+    "eventContext": "A Brilliant Marketing Plan",
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "CLAIM_EVENT",
+      "clientOptions": {
+        "event": "A Brilliant Marketing Plan"
+      }
+    },
+    "label": [
+      "You may select a player to give resources to (",
+      {
+        "type": "points",
+        "value": 2
+      },
+      " each)"
+    ],
+    "prevInputType": "CLAIM_EVENT",
+    "playerOptions": [
+      "mQGHpatMc2vGABQ3QLRzr6",
+      "roeGDjRbGwqaEMmGMXZXHS",
+      "qHJfLUs1szMnMvQ6sEnSU9"
+    ],
+    "mustSelectOne": false,
+    "eventContext": "A Brilliant Marketing Plan",
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": [
+      "Give up to 3 ANY to ",
+      {
+        "type": "player",
+        "name": "Player #1"
+      }
+    ],
+    "toSpend": true,
+    "prevInputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_PLAYER",
+      "prevInput": {
+        "inputType": "CLAIM_EVENT",
+        "clientOptions": {
+          "event": "A Brilliant Marketing Plan"
+        }
+      },
+      "prevInputType": "CLAIM_EVENT",
+      "playerOptions": [
+        "mQGHpatMc2vGABQ3QLRzr6",
+        "roeGDjRbGwqaEMmGMXZXHS",
+        "qHJfLUs1szMnMvQ6sEnSU9"
+      ],
+      "mustSelectOne": false,
+      "eventContext": "A Brilliant Marketing Plan",
+      "clientOptions": {
+        "selectedPlayer": "mQGHpatMc2vGABQ3QLRzr6"
+      }
+    },
+    "maxResources": 3,
+    "minResources": 0,
+    "eventContext": "A Brilliant Marketing Plan",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "CLAIM_EVENT",
+      "clientOptions": {
+        "event": "A Brilliant Marketing Plan"
+      }
+    },
+    "label": [
+      "You may select a player to give resources to (",
+      {
+        "type": "points",
+        "value": 2
+      },
+      " each)"
+    ],
+    "prevInputType": "CLAIM_EVENT",
+    "playerOptions": [
+      "tNZrf4ZFiwNofVDJrz8BuC",
+      "9quV9DvQFNbyCHRPc52QHk",
+      "rc9uxJB3ktJKMfpNx7qYZQ"
+    ],
+    "mustSelectOne": false,
+    "eventContext": "A Brilliant Marketing Plan",
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": [
+      "Give up to 3 ANY to ",
+      {
+        "type": "player",
+        "name": "Player #1"
+      }
+    ],
+    "toSpend": true,
+    "prevInputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_PLAYER",
+      "prevInput": {
+        "inputType": "CLAIM_EVENT",
+        "clientOptions": {
+          "event": "A Brilliant Marketing Plan"
+        }
+      },
+      "prevInputType": "CLAIM_EVENT",
+      "playerOptions": [
+        "tNZrf4ZFiwNofVDJrz8BuC",
+        "9quV9DvQFNbyCHRPc52QHk",
+        "rc9uxJB3ktJKMfpNx7qYZQ"
+      ],
+      "mustSelectOne": false,
+      "eventContext": "A Brilliant Marketing Plan",
+      "clientOptions": {
+        "selectedPlayer": "tNZrf4ZFiwNofVDJrz8BuC"
+      }
+    },
+    "maxResources": 3,
+    "minResources": 0,
+    "eventContext": "A Brilliant Marketing Plan",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_RESOURCES",
+      "prevInputType": "SELECT_PLAYER",
+      "toSpend": true,
+      "prevInput": {
+        "inputType": "SELECT_PLAYER",
+        "prevInput": {
+          "inputType": "CLAIM_EVENT",
+          "clientOptions": {
+            "event": "A Brilliant Marketing Plan"
+          }
+        },
+        "prevInputType": "CLAIM_EVENT",
+        "playerOptions": [
+          "tNZrf4ZFiwNofVDJrz8BuC",
+          "9quV9DvQFNbyCHRPc52QHk",
+          "rc9uxJB3ktJKMfpNx7qYZQ"
+        ],
+        "mustSelectOne": false,
+        "eventContext": "A Brilliant Marketing Plan",
+        "clientOptions": {
+          "selectedPlayer": "tNZrf4ZFiwNofVDJrz8BuC"
+        }
+      },
+      "maxResources": 3,
+      "minResources": 0,
+      "eventContext": "A Brilliant Marketing Plan",
+      "clientOptions": {
+        "resources": {
+          "TWIG": 1
+        }
+      }
+    },
+    "label": [
+      "You may select a player to give resources to (",
+      {
+        "type": "points",
+        "value": 2
+      },
+      " each)"
+    ],
+    "prevInputType": "SELECT_RESOURCES",
+    "playerOptions": [
+      "tNZrf4ZFiwNofVDJrz8BuC",
+      "9quV9DvQFNbyCHRPc52QHk",
+      "rc9uxJB3ktJKMfpNx7qYZQ"
+    ],
+    "mustSelectOne": false,
+    "eventContext": "A Brilliant Marketing Plan",
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": [
+      "Give up to 2 ANY to ",
+      {
+        "type": "player",
+        "name": "Player #3"
+      }
+    ],
+    "toSpend": true,
+    "prevInputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_PLAYER",
+      "prevInputType": "SELECT_RESOURCES",
+      "prevInput": {
+        "inputType": "SELECT_RESOURCES",
+        "prevInputType": "SELECT_PLAYER",
+        "toSpend": true,
+        "prevInput": {
+          "inputType": "SELECT_PLAYER",
+          "prevInput": {
+            "inputType": "CLAIM_EVENT",
+            "clientOptions": {
+              "event": "A Brilliant Marketing Plan"
+            }
+          },
+          "prevInputType": "CLAIM_EVENT",
+          "playerOptions": [
+            "tNZrf4ZFiwNofVDJrz8BuC",
+            "9quV9DvQFNbyCHRPc52QHk",
+            "rc9uxJB3ktJKMfpNx7qYZQ"
+          ],
+          "mustSelectOne": false,
+          "eventContext": "A Brilliant Marketing Plan",
+          "clientOptions": {
+            "selectedPlayer": "tNZrf4ZFiwNofVDJrz8BuC"
+          }
+        },
+        "maxResources": 3,
+        "minResources": 0,
+        "eventContext": "A Brilliant Marketing Plan",
+        "clientOptions": {
+          "resources": {
+            "TWIG": 1
+          }
+        }
+      },
+      "playerOptions": [
+        "tNZrf4ZFiwNofVDJrz8BuC",
+        "9quV9DvQFNbyCHRPc52QHk",
+        "rc9uxJB3ktJKMfpNx7qYZQ"
+      ],
+      "mustSelectOne": false,
+      "eventContext": "A Brilliant Marketing Plan",
+      "clientOptions": {
+        "selectedPlayer": "rc9uxJB3ktJKMfpNx7qYZQ"
+      }
+    },
+    "maxResources": 2,
+    "minResources": 0,
+    "eventContext": "A Brilliant Marketing Plan",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "CLAIM_EVENT",
+    "label": "Select 2 CARD to discard",
+    "eventContext": "Hopewatch Gate",
+    "maxToSelect": 2,
+    "minToSelect": 2,
+    "cardOptions": [
+      "Farm",
+      "Inn",
+      "Wife",
+      "Postal Pigeon"
+    ],
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "CLAIM_EVENT",
+    "label": "Select 2 CARD to discard",
+    "eventContext": "Mistrise Fountain",
+    "maxToSelect": 2,
+    "minToSelect": 2,
+    "cardOptions": [
+      "Farm",
+      "Inn",
+      "Wife",
+      "Postal Pigeon"
+    ],
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "CLAIM_EVENT",
+    "label": "Select 3 CARD to discard",
+    "eventContext": "Sunblaze Bridge",
+    "maxToSelect": 3,
+    "minToSelect": 3,
+    "cardOptions": [
+      "Farm",
+      "Inn",
+      "Wife",
+      "Postal Pigeon"
+    ],
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "CLAIM_EVENT",
+    "label": "Select 3 CARD to discard",
+    "eventContext": "Starfalls flame",
+    "maxToSelect": 3,
+    "minToSelect": 3,
+    "cardOptions": [
+      "Farm",
+      "Inn",
+      "Wife",
+      "Postal Pigeon"
+    ],
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "CLAIM_EVENT",
+    "label": [
+      "Place up to 3 ",
+      {
+        "type": "em",
+        "text": "Critters"
+      },
+      " from the Meadow beneath this Event. (",
+      {
+        "type": "points",
+        "value": 2
+      },
+      " each)"
+    ],
+    "eventContext": "Riverside Resort",
+    "cardOptions": [
+      "Husband",
+      "Queen",
+      "Wife",
+      "Postal Pigeon",
+      "Ranger"
+    ],
+    "maxToSelect": 3,
+    "minToSelect": 0,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "CLAIM_EVENT",
+    "label": [
+      "Place up to 3 ",
+      {
+        "type": "em",
+        "text": "Critters"
+      },
+      " from the Meadow beneath this Event. (",
+      {
+        "type": "points",
+        "value": 2
+      },
+      " each)"
+    ],
+    "eventContext": "Riverside Resort",
+    "cardOptions": [
+      "Husband",
+      "Queen",
+      "Wife",
+      "Postal Pigeon",
+      "Ranger"
+    ],
+    "maxToSelect": 3,
+    "minToSelect": 0,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "CLAIM_EVENT",
+    "label": [
+      "Place up to 3 ",
+      {
+        "type": "em",
+        "text": "Critters"
+      },
+      " from the Meadow beneath this Event. (",
+      {
+        "type": "points",
+        "value": 2
+      },
+      " each)"
+    ],
+    "eventContext": "Riverside Resort",
+    "cardOptions": [
+      "Husband",
+      "Queen",
+      "Wife",
+      "Postal Pigeon",
+      "Ranger"
+    ],
+    "maxToSelect": 3,
+    "minToSelect": 0,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "CLAIM_EVENT",
+    "label": [
+      "Place up to 3 ",
+      {
+        "type": "em",
+        "text": "Critters"
+      },
+      " from the Meadow beneath this Event. (",
+      {
+        "type": "points",
+        "value": 2
+      },
+      " each)"
+    ],
+    "eventContext": "Riverside Resort",
+    "cardOptions": [
+      "Husband",
+      "Queen",
+      "Wife",
+      "Postal Pigeon",
+      "Ranger"
+    ],
+    "maxToSelect": 3,
+    "minToSelect": 0,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "CLAIM_EVENT",
+    "label": [
+      "Place up to 3 ",
+      {
+        "type": "em",
+        "text": "Critters"
+      },
+      " from the Meadow beneath this Event. (",
+      {
+        "type": "points",
+        "value": 2
+      },
+      " each)"
+    ],
+    "eventContext": "Riverside Resort",
+    "cardOptions": [
+      "Husband",
+      "Queen",
+      "Wife",
+      "Postal Pigeon",
+      "Ranger"
+    ],
+    "maxToSelect": 3,
+    "minToSelect": 0,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "CLAIM_EVENT",
+    "label": [
+      "Place up to 3 ",
+      {
+        "type": "em",
+        "text": "Critters"
+      },
+      " from the Meadow beneath this Event. (",
+      {
+        "type": "points",
+        "value": 2
+      },
+      " each)"
+    ],
+    "eventContext": "Riverside Resort",
+    "cardOptions": [
+      "Husband",
+      "Queen",
+      "Wife",
+      "Postal Pigeon",
+      "Ranger"
+    ],
+    "maxToSelect": 3,
+    "minToSelect": 0,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "CLAIM_EVENT",
+    "label": [
+      "Select 1 CARD from the Meadow worth up to ",
+      {
+        "type": "points",
+        "value": 3
+      },
+      " to play for free."
+    ],
+    "cardOptions": [
+      "Husband",
+      "Wife",
+      "Farm",
+      "Inn",
+      "Post Office",
+      "Postal Pigeon",
+      "Ranger"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 0,
+    "eventContext": "Sunken Treasure Discovered",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "CLAIM_EVENT",
+    "label": [
+      "Select 1 CARD from the Meadow worth up to ",
+      {
+        "type": "points",
+        "value": 3
+      },
+      " to play for free."
+    ],
+    "cardOptions": [
+      "Husband",
+      "Wife",
+      "Farm",
+      "Inn",
+      "Post Office",
+      "Postal Pigeon",
+      "Ranger"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 0,
+    "eventContext": "Sunken Treasure Discovered",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "CLAIM_EVENT",
+    "label": [
+      "Select 1 CARD from the Meadow worth up to ",
+      {
+        "type": "points",
+        "value": 3
+      },
+      " to play for free."
+    ],
+    "cardOptions": [
+      "Husband",
+      "Wife",
+      "Farm",
+      "Inn",
+      "Post Office",
+      "Postal Pigeon",
+      "Ranger"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 0,
+    "eventContext": "Sunken Treasure Discovered",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "CLAIM_EVENT",
+    "label": "Place a Ferry Ferret under this card for 2 VP OR a Twig Barge to gain 2 ANY",
+    "cardOptions": [
+      {
+        "cardOwnerId": "rpZF6hLLskubHjxVE7Gdw7",
+        "cardName": "Ferry Ferret"
+      },
+      {
+        "cardOwnerId": "rpZF6hLLskubHjxVE7Gdw7",
+        "cardName": "Twig Barge",
+        "usedForCritter": false
+      }
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "eventContext": "River Race",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "CLAIM_EVENT",
+    "label": "Place a Ferry Ferret under this card for 2 VP OR a Twig Barge to gain 2 ANY",
+    "cardOptions": [
+      {
+        "cardOwnerId": "qYwXXHW6kXbo7biRAa9Fjh",
+        "cardName": "Ferry Ferret"
+      },
+      {
+        "cardOwnerId": "qYwXXHW6kXbo7biRAa9Fjh",
+        "cardName": "Twig Barge",
+        "usedForCritter": false
+      }
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "eventContext": "River Race",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Gain 2 ANY",
+    "toSpend": false,
+    "maxResources": 2,
+    "minResources": 2,
+    "clientOptions": {
+      "resources": {}
+    },
+    "eventContext": "River Race",
+    "prevInputType": "SELECT_PLAYED_CARDS"
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "CLAIM_EVENT",
+    "label": "Place a Ferry Ferret under this card for 2 VP OR a Twig Barge to gain 2 ANY",
+    "cardOptions": [
+      {
+        "cardOwnerId": "g9MA8xdAS6QvZDmgfjYnwP",
+        "cardName": "Ferry Ferret"
+      },
+      {
+        "cardOwnerId": "g9MA8xdAS6QvZDmgfjYnwP",
+        "cardName": "Twig Barge",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "g9MA8xdAS6QvZDmgfjYnwP",
+        "cardName": "Twig Barge",
+        "usedForCritter": false
+      }
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "eventContext": "River Race",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Gain 2 ANY",
+    "toSpend": false,
+    "maxResources": 2,
+    "minResources": 2,
+    "clientOptions": {
+      "resources": {}
+    },
+    "eventContext": "River Race",
+    "prevInputType": "SELECT_PLAYED_CARDS"
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "CLAIM_EVENT",
+    "eventContext": "Romantic Cruise",
+    "options": [
+      "Search deck for a Wife",
+      "Gain 5 VP"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "CLAIM_EVENT",
+    "eventContext": "Romantic Cruise",
+    "options": [
+      "Search deck for a Wife",
+      "Gain 5 VP"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "CLAIM_EVENT",
+    "eventContext": "Romantic Cruise",
+    "options": [
+      "Search deck for a Wife",
+      "Gain 5 VP"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "CLAIM_EVENT",
+    "eventContext": "Romantic Cruise",
+    "options": [
+      "Search deck for a Wife",
+      "Gain 5 VP"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "CLAIM_EVENT",
+      "clientOptions": {
+        "event": "Masquerade Invitations"
+      }
+    },
+    "label": [
+      "You may select a player to give cards to (",
+      {
+        "type": "points",
+        "value": 1
+      },
+      " each)"
+    ],
+    "prevInputType": "CLAIM_EVENT",
+    "playerOptions": [
+      "q5hqNMkPvEnX5y49GxE5Ha"
+    ],
+    "mustSelectOne": false,
+    "eventContext": "Masquerade Invitations",
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "label": [
+      "Give up to 6 CARD to ",
+      {
+        "type": "player",
+        "name": "Player #1"
+      }
+    ],
+    "prevInputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_PLAYER",
+      "prevInput": {
+        "inputType": "CLAIM_EVENT",
+        "clientOptions": {
+          "event": "Masquerade Invitations"
+        }
+      },
+      "prevInputType": "CLAIM_EVENT",
+      "playerOptions": [
+        "q5hqNMkPvEnX5y49GxE5Ha"
+      ],
+      "mustSelectOne": false,
+      "eventContext": "Masquerade Invitations",
+      "clientOptions": {
+        "selectedPlayer": "q5hqNMkPvEnX5y49GxE5Ha"
+      }
+    },
+    "cardOptions": [
+      "Husband",
+      "Wife",
+      "Wife",
+      "Queen",
+      "King",
+      "Ferry",
+      "Ferry Ferret"
+    ],
+    "maxToSelect": 6,
+    "minToSelect": 0,
+    "eventContext": "Masquerade Invitations",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "CLAIM_EVENT",
+      "clientOptions": {
+        "event": "Masquerade Invitations"
+      }
+    },
+    "label": [
+      "You may select a player to give cards to (",
+      {
+        "type": "points",
+        "value": 1
+      },
+      " each)"
+    ],
+    "prevInputType": "CLAIM_EVENT",
+    "playerOptions": [
+      "epFuNHVYEvvgCPQSzR6icn"
+    ],
+    "mustSelectOne": false,
+    "eventContext": "Masquerade Invitations",
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "label": [
+      "Give up to 6 CARD to ",
+      {
+        "type": "player",
+        "name": "Player #1"
+      }
+    ],
+    "prevInputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_PLAYER",
+      "prevInput": {
+        "inputType": "CLAIM_EVENT",
+        "clientOptions": {
+          "event": "Masquerade Invitations"
+        }
+      },
+      "prevInputType": "CLAIM_EVENT",
+      "playerOptions": [
+        "epFuNHVYEvvgCPQSzR6icn"
+      ],
+      "mustSelectOne": false,
+      "eventContext": "Masquerade Invitations",
+      "clientOptions": {
+        "selectedPlayer": "epFuNHVYEvvgCPQSzR6icn"
+      }
+    },
+    "cardOptions": [
+      "Husband",
+      "Wife",
+      "Wife",
+      "Queen",
+      "King",
+      "Ferry",
+      "Ferry Ferret"
+    ],
+    "maxToSelect": 6,
+    "minToSelect": 0,
+    "eventContext": "Masquerade Invitations",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_CARDS",
+      "prevInputType": "SELECT_PLAYER",
+      "prevInput": {
+        "inputType": "SELECT_PLAYER",
+        "prevInput": {
+          "inputType": "CLAIM_EVENT",
+          "clientOptions": {
+            "event": "Masquerade Invitations"
+          }
+        },
+        "prevInputType": "CLAIM_EVENT",
+        "playerOptions": [
+          "epFuNHVYEvvgCPQSzR6icn"
+        ],
+        "mustSelectOne": false,
+        "eventContext": "Masquerade Invitations",
+        "clientOptions": {
+          "selectedPlayer": "epFuNHVYEvvgCPQSzR6icn"
+        }
+      },
+      "cardOptions": [
+        "Husband",
+        "Wife",
+        "Wife",
+        "Queen",
+        "King",
+        "Ferry",
+        "Ferry Ferret"
+      ],
+      "maxToSelect": 6,
+      "minToSelect": 0,
+      "eventContext": "Masquerade Invitations",
+      "clientOptions": {
+        "selectedCards": [
+          "Husband",
+          "Ferry Ferret"
+        ]
+      }
+    },
+    "label": [
+      "You may select a player to give cards to (",
+      {
+        "type": "points",
+        "value": 1
+      },
+      " each)"
+    ],
+    "prevInputType": "SELECT_CARDS",
+    "playerOptions": [
+      "epFuNHVYEvvgCPQSzR6icn"
+    ],
+    "mustSelectOne": false,
+    "eventContext": "Masquerade Invitations",
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "CLAIM_EVENT",
+      "clientOptions": {
+        "event": "Masquerade Invitations"
+      }
+    },
+    "label": [
+      "You may select a player to give cards to (",
+      {
+        "type": "points",
+        "value": 1
+      },
+      " each)"
+    ],
+    "prevInputType": "CLAIM_EVENT",
+    "playerOptions": [
+      "h2G9NASRA6DwZk1Uko4M1i",
+      "rH6fiakauy93FVbuM4Ji6g",
+      "5tmVEy5UjEbFPFp69xtnHY"
+    ],
+    "mustSelectOne": false,
+    "eventContext": "Masquerade Invitations",
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "label": [
+      "Give up to 6 CARD to ",
+      {
+        "type": "player",
+        "name": "Player #1"
+      }
+    ],
+    "prevInputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_PLAYER",
+      "prevInput": {
+        "inputType": "CLAIM_EVENT",
+        "clientOptions": {
+          "event": "Masquerade Invitations"
+        }
+      },
+      "prevInputType": "CLAIM_EVENT",
+      "playerOptions": [
+        "h2G9NASRA6DwZk1Uko4M1i",
+        "rH6fiakauy93FVbuM4Ji6g",
+        "5tmVEy5UjEbFPFp69xtnHY"
+      ],
+      "mustSelectOne": false,
+      "eventContext": "Masquerade Invitations",
+      "clientOptions": {
+        "selectedPlayer": "h2G9NASRA6DwZk1Uko4M1i"
+      }
+    },
+    "cardOptions": [
+      "Husband",
+      "Wife",
+      "Wife",
+      "Queen",
+      "King",
+      "Ferry",
+      "Ferry Ferret"
+    ],
+    "maxToSelect": 6,
+    "minToSelect": 0,
+    "eventContext": "Masquerade Invitations",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_CARDS",
+      "prevInputType": "SELECT_PLAYER",
+      "prevInput": {
+        "inputType": "SELECT_PLAYER",
+        "prevInput": {
+          "inputType": "CLAIM_EVENT",
+          "clientOptions": {
+            "event": "Masquerade Invitations"
+          }
+        },
+        "prevInputType": "CLAIM_EVENT",
+        "playerOptions": [
+          "h2G9NASRA6DwZk1Uko4M1i",
+          "rH6fiakauy93FVbuM4Ji6g",
+          "5tmVEy5UjEbFPFp69xtnHY"
+        ],
+        "mustSelectOne": false,
+        "eventContext": "Masquerade Invitations",
+        "clientOptions": {
+          "selectedPlayer": "h2G9NASRA6DwZk1Uko4M1i"
+        }
+      },
+      "cardOptions": [
+        "Husband",
+        "Wife",
+        "Wife",
+        "Queen",
+        "King",
+        "Ferry",
+        "Ferry Ferret"
+      ],
+      "maxToSelect": 6,
+      "minToSelect": 0,
+      "eventContext": "Masquerade Invitations",
+      "clientOptions": {
+        "selectedCards": [
+          "Husband",
+          "Ferry Ferret"
+        ]
+      }
+    },
+    "label": [
+      "You may select a player to give cards to (",
+      {
+        "type": "points",
+        "value": 1
+      },
+      " each)"
+    ],
+    "prevInputType": "SELECT_CARDS",
+    "playerOptions": [
+      "h2G9NASRA6DwZk1Uko4M1i",
+      "rH6fiakauy93FVbuM4Ji6g",
+      "5tmVEy5UjEbFPFp69xtnHY"
+    ],
+    "mustSelectOne": false,
+    "eventContext": "Masquerade Invitations",
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "label": [
+      "Give up to 4 CARD to ",
+      {
+        "type": "player",
+        "name": "Player #3"
+      }
+    ],
+    "prevInputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_PLAYER",
+      "prevInput": {
+        "inputType": "SELECT_CARDS",
+        "prevInputType": "SELECT_PLAYER",
+        "prevInput": {
+          "inputType": "SELECT_PLAYER",
+          "prevInput": {
+            "inputType": "CLAIM_EVENT",
+            "clientOptions": {
+              "event": "Masquerade Invitations"
+            }
+          },
+          "prevInputType": "CLAIM_EVENT",
+          "playerOptions": [
+            "h2G9NASRA6DwZk1Uko4M1i",
+            "rH6fiakauy93FVbuM4Ji6g",
+            "5tmVEy5UjEbFPFp69xtnHY"
+          ],
+          "mustSelectOne": false,
+          "eventContext": "Masquerade Invitations",
+          "clientOptions": {
+            "selectedPlayer": "h2G9NASRA6DwZk1Uko4M1i"
+          }
+        },
+        "cardOptions": [
+          "Husband",
+          "Wife",
+          "Wife",
+          "Queen",
+          "King",
+          "Ferry",
+          "Ferry Ferret"
+        ],
+        "maxToSelect": 6,
+        "minToSelect": 0,
+        "eventContext": "Masquerade Invitations",
+        "clientOptions": {
+          "selectedCards": [
+            "Husband",
+            "Ferry Ferret"
+          ]
+        }
+      },
+      "prevInputType": "SELECT_CARDS",
+      "playerOptions": [
+        "h2G9NASRA6DwZk1Uko4M1i",
+        "rH6fiakauy93FVbuM4Ji6g",
+        "5tmVEy5UjEbFPFp69xtnHY"
+      ],
+      "mustSelectOne": false,
+      "eventContext": "Masquerade Invitations",
+      "clientOptions": {
+        "selectedPlayer": "5tmVEy5UjEbFPFp69xtnHY"
+      }
+    },
+    "cardOptions": [
+      "Wife",
+      "Wife",
+      "Queen",
+      "King",
+      "Ferry"
+    ],
+    "maxToSelect": 4,
+    "minToSelect": 0,
+    "eventContext": "Masquerade Invitations",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_CARDS",
+      "prevInputType": "SELECT_PLAYER",
+      "prevInput": {
+        "inputType": "SELECT_PLAYER",
+        "prevInput": {
+          "inputType": "SELECT_CARDS",
+          "prevInputType": "SELECT_PLAYER",
+          "prevInput": {
+            "inputType": "SELECT_PLAYER",
+            "prevInput": {
+              "inputType": "CLAIM_EVENT",
+              "clientOptions": {
+                "event": "Masquerade Invitations"
+              }
+            },
+            "prevInputType": "CLAIM_EVENT",
+            "playerOptions": [
+              "h2G9NASRA6DwZk1Uko4M1i",
+              "rH6fiakauy93FVbuM4Ji6g",
+              "5tmVEy5UjEbFPFp69xtnHY"
+            ],
+            "mustSelectOne": false,
+            "eventContext": "Masquerade Invitations",
+            "clientOptions": {
+              "selectedPlayer": "h2G9NASRA6DwZk1Uko4M1i"
+            }
+          },
+          "cardOptions": [
+            "Husband",
+            "Wife",
+            "Wife",
+            "Queen",
+            "King",
+            "Ferry",
+            "Ferry Ferret"
+          ],
+          "maxToSelect": 6,
+          "minToSelect": 0,
+          "eventContext": "Masquerade Invitations",
+          "clientOptions": {
+            "selectedCards": [
+              "Husband",
+              "Ferry Ferret"
+            ]
+          }
+        },
+        "prevInputType": "SELECT_CARDS",
+        "playerOptions": [
+          "h2G9NASRA6DwZk1Uko4M1i",
+          "rH6fiakauy93FVbuM4Ji6g",
+          "5tmVEy5UjEbFPFp69xtnHY"
+        ],
+        "mustSelectOne": false,
+        "eventContext": "Masquerade Invitations",
+        "clientOptions": {
+          "selectedPlayer": "5tmVEy5UjEbFPFp69xtnHY"
+        }
+      },
+      "cardOptions": [
+        "Wife",
+        "Wife",
+        "Queen",
+        "King",
+        "Ferry"
+      ],
+      "maxToSelect": 4,
+      "minToSelect": 0,
+      "eventContext": "Masquerade Invitations",
+      "clientOptions": {
+        "selectedCards": [
+          "Queen",
+          "Wife",
+          "King"
+        ]
+      }
+    },
+    "label": [
+      "You may select a player to give cards to (",
+      {
+        "type": "points",
+        "value": 1
+      },
+      " each)"
+    ],
+    "prevInputType": "SELECT_CARDS",
+    "playerOptions": [
+      "h2G9NASRA6DwZk1Uko4M1i",
+      "rH6fiakauy93FVbuM4Ji6g",
+      "5tmVEy5UjEbFPFp69xtnHY"
+    ],
+    "mustSelectOne": false,
+    "eventContext": "Masquerade Invitations",
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "label": [
+      "Give up to 1 CARD to ",
+      {
+        "type": "player",
+        "name": "Player #2"
+      }
+    ],
+    "prevInputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_PLAYER",
+      "prevInput": {
+        "inputType": "SELECT_CARDS",
+        "prevInputType": "SELECT_PLAYER",
+        "prevInput": {
+          "inputType": "SELECT_PLAYER",
+          "prevInput": {
+            "inputType": "SELECT_CARDS",
+            "prevInputType": "SELECT_PLAYER",
+            "prevInput": {
+              "inputType": "SELECT_PLAYER",
+              "prevInput": {
+                "inputType": "CLAIM_EVENT",
+                "clientOptions": {
+                  "event": "Masquerade Invitations"
+                }
+              },
+              "prevInputType": "CLAIM_EVENT",
+              "playerOptions": [
+                "h2G9NASRA6DwZk1Uko4M1i",
+                "rH6fiakauy93FVbuM4Ji6g",
+                "5tmVEy5UjEbFPFp69xtnHY"
+              ],
+              "mustSelectOne": false,
+              "eventContext": "Masquerade Invitations",
+              "clientOptions": {
+                "selectedPlayer": "h2G9NASRA6DwZk1Uko4M1i"
+              }
+            },
+            "cardOptions": [
+              "Husband",
+              "Wife",
+              "Wife",
+              "Queen",
+              "King",
+              "Ferry",
+              "Ferry Ferret"
+            ],
+            "maxToSelect": 6,
+            "minToSelect": 0,
+            "eventContext": "Masquerade Invitations",
+            "clientOptions": {
+              "selectedCards": [
+                "Husband",
+                "Ferry Ferret"
+              ]
+            }
+          },
+          "prevInputType": "SELECT_CARDS",
+          "playerOptions": [
+            "h2G9NASRA6DwZk1Uko4M1i",
+            "rH6fiakauy93FVbuM4Ji6g",
+            "5tmVEy5UjEbFPFp69xtnHY"
+          ],
+          "mustSelectOne": false,
+          "eventContext": "Masquerade Invitations",
+          "clientOptions": {
+            "selectedPlayer": "5tmVEy5UjEbFPFp69xtnHY"
+          }
+        },
+        "cardOptions": [
+          "Wife",
+          "Wife",
+          "Queen",
+          "King",
+          "Ferry"
+        ],
+        "maxToSelect": 4,
+        "minToSelect": 0,
+        "eventContext": "Masquerade Invitations",
+        "clientOptions": {
+          "selectedCards": [
+            "Queen",
+            "Wife",
+            "King"
+          ]
+        }
+      },
+      "prevInputType": "SELECT_CARDS",
+      "playerOptions": [
+        "h2G9NASRA6DwZk1Uko4M1i",
+        "rH6fiakauy93FVbuM4Ji6g",
+        "5tmVEy5UjEbFPFp69xtnHY"
+      ],
+      "mustSelectOne": false,
+      "eventContext": "Masquerade Invitations",
+      "clientOptions": {
+        "selectedPlayer": "rH6fiakauy93FVbuM4Ji6g"
+      }
+    },
+    "cardOptions": [
+      "Wife",
+      "Ferry"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 0,
+    "eventContext": "Masquerade Invitations",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "CLAIM_EVENT",
+      "clientOptions": {
+        "event": "Masquerade Invitations"
+      }
+    },
+    "label": [
+      "You may select a player to give cards to (",
+      {
+        "type": "points",
+        "value": 1
+      },
+      " each)"
+    ],
+    "prevInputType": "CLAIM_EVENT",
+    "playerOptions": [
+      "ppNYZYJgFrJLSjsuLry5PD"
+    ],
+    "mustSelectOne": false,
+    "eventContext": "Masquerade Invitations",
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "label": [
+      "Give up to 6 CARD to ",
+      {
+        "type": "player",
+        "name": "Player #1"
+      }
+    ],
+    "prevInputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_PLAYER",
+      "prevInput": {
+        "inputType": "CLAIM_EVENT",
+        "clientOptions": {
+          "event": "Masquerade Invitations"
+        }
+      },
+      "prevInputType": "CLAIM_EVENT",
+      "playerOptions": [
+        "ppNYZYJgFrJLSjsuLry5PD"
+      ],
+      "mustSelectOne": false,
+      "eventContext": "Masquerade Invitations",
+      "clientOptions": {
+        "selectedPlayer": "ppNYZYJgFrJLSjsuLry5PD"
+      }
+    },
+    "cardOptions": [
+      "Husband",
+      "Wife",
+      "Wife",
+      "Queen",
+      "King",
+      "Ferry",
+      "Ferry Ferret"
+    ],
+    "maxToSelect": 6,
+    "minToSelect": 0,
+    "eventContext": "Masquerade Invitations",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "CLAIM_EVENT",
+      "clientOptions": {
+        "event": "Masquerade Invitations"
+      }
+    },
+    "label": [
+      "You may select a player to give cards to (",
+      {
+        "type": "points",
+        "value": 1
+      },
+      " each)"
+    ],
+    "prevInputType": "CLAIM_EVENT",
+    "playerOptions": [
+      "g8yCyoikpTwGunrgCnpSP7",
+      "b6yVa5tZa9bRRJMZs6rpsC",
+      "f3VxqXRdyMCaePPvJ3uruB"
+    ],
+    "mustSelectOne": false,
+    "eventContext": "Masquerade Invitations",
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "label": [
+      "Give up to 6 CARD to ",
+      {
+        "type": "player",
+        "name": "Player #1"
+      }
+    ],
+    "prevInputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_PLAYER",
+      "prevInput": {
+        "inputType": "CLAIM_EVENT",
+        "clientOptions": {
+          "event": "Masquerade Invitations"
+        }
+      },
+      "prevInputType": "CLAIM_EVENT",
+      "playerOptions": [
+        "g8yCyoikpTwGunrgCnpSP7",
+        "b6yVa5tZa9bRRJMZs6rpsC",
+        "f3VxqXRdyMCaePPvJ3uruB"
+      ],
+      "mustSelectOne": false,
+      "eventContext": "Masquerade Invitations",
+      "clientOptions": {
+        "selectedPlayer": "g8yCyoikpTwGunrgCnpSP7"
+      }
+    },
+    "cardOptions": [
+      "Husband",
+      "Wife",
+      "Wife",
+      "Queen",
+      "King",
+      "Ferry",
+      "Ferry Ferret"
+    ],
+    "maxToSelect": 6,
+    "minToSelect": 0,
+    "eventContext": "Masquerade Invitations",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_CARDS",
+      "prevInputType": "SELECT_PLAYER",
+      "prevInput": {
+        "inputType": "SELECT_PLAYER",
+        "prevInput": {
+          "inputType": "CLAIM_EVENT",
+          "clientOptions": {
+            "event": "Masquerade Invitations"
+          }
+        },
+        "prevInputType": "CLAIM_EVENT",
+        "playerOptions": [
+          "g8yCyoikpTwGunrgCnpSP7",
+          "b6yVa5tZa9bRRJMZs6rpsC",
+          "f3VxqXRdyMCaePPvJ3uruB"
+        ],
+        "mustSelectOne": false,
+        "eventContext": "Masquerade Invitations",
+        "clientOptions": {
+          "selectedPlayer": "g8yCyoikpTwGunrgCnpSP7"
+        }
+      },
+      "cardOptions": [
+        "Husband",
+        "Wife",
+        "Wife",
+        "Queen",
+        "King",
+        "Ferry",
+        "Ferry Ferret"
+      ],
+      "maxToSelect": 6,
+      "minToSelect": 0,
+      "eventContext": "Masquerade Invitations",
+      "clientOptions": {
+        "selectedCards": [
+          "Husband",
+          "Ferry Ferret"
+        ]
+      }
+    },
+    "label": [
+      "You may select a player to give cards to (",
+      {
+        "type": "points",
+        "value": 1
+      },
+      " each)"
+    ],
+    "prevInputType": "SELECT_CARDS",
+    "playerOptions": [
+      "g8yCyoikpTwGunrgCnpSP7",
+      "b6yVa5tZa9bRRJMZs6rpsC",
+      "f3VxqXRdyMCaePPvJ3uruB"
+    ],
+    "mustSelectOne": false,
+    "eventContext": "Masquerade Invitations",
+    "clientOptions": {
+      "selectedPlayer": null
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "label": [
+      "Give up to 4 CARD to ",
+      {
+        "type": "player",
+        "name": "Player #3"
+      }
+    ],
+    "prevInputType": "SELECT_PLAYER",
+    "prevInput": {
+      "inputType": "SELECT_PLAYER",
+      "prevInput": {
+        "inputType": "SELECT_CARDS",
+        "prevInputType": "SELECT_PLAYER",
+        "prevInput": {
+          "inputType": "SELECT_PLAYER",
+          "prevInput": {
+            "inputType": "CLAIM_EVENT",
+            "clientOptions": {
+              "event": "Masquerade Invitations"
+            }
+          },
+          "prevInputType": "CLAIM_EVENT",
+          "playerOptions": [
+            "g8yCyoikpTwGunrgCnpSP7",
+            "b6yVa5tZa9bRRJMZs6rpsC",
+            "f3VxqXRdyMCaePPvJ3uruB"
+          ],
+          "mustSelectOne": false,
+          "eventContext": "Masquerade Invitations",
+          "clientOptions": {
+            "selectedPlayer": "g8yCyoikpTwGunrgCnpSP7"
+          }
+        },
+        "cardOptions": [
+          "Husband",
+          "Wife",
+          "Wife",
+          "Queen",
+          "King",
+          "Ferry",
+          "Ferry Ferret"
+        ],
+        "maxToSelect": 6,
+        "minToSelect": 0,
+        "eventContext": "Masquerade Invitations",
+        "clientOptions": {
+          "selectedCards": [
+            "Husband",
+            "Ferry Ferret"
+          ]
+        }
+      },
+      "prevInputType": "SELECT_CARDS",
+      "playerOptions": [
+        "g8yCyoikpTwGunrgCnpSP7",
+        "b6yVa5tZa9bRRJMZs6rpsC",
+        "f3VxqXRdyMCaePPvJ3uruB"
+      ],
+      "mustSelectOne": false,
+      "eventContext": "Masquerade Invitations",
+      "clientOptions": {
+        "selectedPlayer": "f3VxqXRdyMCaePPvJ3uruB"
+      }
+    },
+    "cardOptions": [
+      "Wife",
+      "Wife",
+      "Queen",
+      "King",
+      "Ferry"
+    ],
+    "maxToSelect": 4,
+    "minToSelect": 0,
+    "eventContext": "Masquerade Invitations",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PLAY_CARD",
+    "label": "Select 1 Construction to discard from your city",
+    "cardOptions": [
+      {
+        "cardOwnerId": "hF4XCgDUjh7CvD4GZyAuvH",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "hF4XCgDUjh7CvD4GZyAuvH",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "hF4XCgDUjh7CvD4GZyAuvH",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "hF4XCgDUjh7CvD4GZyAuvH",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "hF4XCgDUjh7CvD4GZyAuvH",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "hF4XCgDUjh7CvD4GZyAuvH",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "hF4XCgDUjh7CvD4GZyAuvH",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "hF4XCgDUjh7CvD4GZyAuvH",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "hF4XCgDUjh7CvD4GZyAuvH",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "hF4XCgDUjh7CvD4GZyAuvH",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "hF4XCgDUjh7CvD4GZyAuvH",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "hF4XCgDUjh7CvD4GZyAuvH",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "hF4XCgDUjh7CvD4GZyAuvH",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "hF4XCgDUjh7CvD4GZyAuvH",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "hF4XCgDUjh7CvD4GZyAuvH",
+        "cardName": "Farm",
+        "usedForCritter": false
+      }
+    ],
+    "cardContext": "Ruins",
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Give another player up to 2 BERRY to gain 2 VP each",
+    "toSpend": true,
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "maxResources": 2,
+    "minResources": 0,
+    "specificResource": "BERRY",
+    "cardContext": "Monk",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "toSpend": true,
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "label": "Pay up to 3 BERRY to gain 1 VP each",
+    "cardContext": "Doctor",
+    "maxResources": 3,
+    "minResources": 0,
+    "specificResource": "BERRY",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "toSpend": true,
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "label": "Pay up to 3 TWIG to gain 1 VP each",
+    "cardContext": "Woodcarver",
+    "maxResources": 3,
+    "minResources": 0,
+    "specificResource": "TWIG",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "toSpend": true,
+    "label": "Pay up to 2 ANY to gain an equal amount of ANY",
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "cardContext": "Peddler",
+    "maxResources": 2,
+    "minResources": 0,
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Give another player up to 2 BERRY to gain 2 VP each",
+    "toSpend": true,
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "maxResources": 2,
+    "minResources": 0,
+    "specificResource": "BERRY",
+    "cardContext": "Monk",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "toSpend": true,
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "label": "Pay up to 3 BERRY to gain 1 VP each",
+    "cardContext": "Doctor",
+    "maxResources": 3,
+    "minResources": 0,
+    "specificResource": "BERRY",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "toSpend": true,
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "label": "Pay up to 3 TWIG to gain 1 VP each",
+    "cardContext": "Woodcarver",
+    "maxResources": 3,
+    "minResources": 0,
+    "specificResource": "TWIG",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "toSpend": true,
+    "label": "Pay up to 2 ANY to gain an equal amount of ANY",
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "cardContext": "Peddler",
+    "maxResources": 2,
+    "minResources": 0,
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Give another player up to 2 BERRY to gain 2 VP each",
+    "toSpend": true,
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "maxResources": 2,
+    "minResources": 0,
+    "specificResource": "BERRY",
+    "cardContext": "Monk",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "toSpend": true,
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "label": "Pay up to 3 TWIG to gain 1 VP each",
+    "cardContext": "Woodcarver",
+    "maxResources": 3,
+    "minResources": 0,
+    "specificResource": "TWIG",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "toSpend": true,
+    "label": "Pay up to 2 ANY to gain an equal amount of ANY",
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "cardContext": "Peddler",
+    "maxResources": 2,
+    "minResources": 0,
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Give another player up to 2 BERRY to gain 2 VP each",
+    "toSpend": true,
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "maxResources": 2,
+    "minResources": 0,
+    "specificResource": "BERRY",
+    "cardContext": "Monk",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "toSpend": true,
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "label": "Pay up to 3 TWIG to gain 1 VP each",
+    "cardContext": "Woodcarver",
+    "maxResources": 3,
+    "minResources": 0,
+    "specificResource": "TWIG",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Gain 1 ANY",
+    "toSpend": false,
+    "maxResources": 1,
+    "minResources": 1,
+    "clientOptions": {
+      "resources": {}
+    },
+    "cardContext": "Peddler",
+    "prevInputType": "SELECT_RESOURCES"
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Give another player up to 2 BERRY to gain 2 VP each",
+    "toSpend": true,
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "maxResources": 2,
+    "minResources": 0,
+    "specificResource": "BERRY",
+    "cardContext": "Monk",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "toSpend": true,
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "label": "Pay up to 3 TWIG to gain 1 VP each",
+    "cardContext": "Woodcarver",
+    "maxResources": 3,
+    "minResources": 0,
+    "specificResource": "TWIG",
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "label": "Select 2 CARD from the Meadow",
+    "prevInputType": "PREPARE_FOR_SEASON",
+    "cardOptions": [
+      "Farm",
+      "Mine",
+      "Queen",
+      "King",
+      "Castle",
+      "Teacher",
+      "Historian",
+      "Inn"
+    ],
+    "maxToSelect": 2,
+    "minToSelect": 2,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Gain 2 ANY",
+    "toSpend": false,
+    "maxResources": 2,
+    "minResources": 2,
+    "clientOptions": {
+      "resources": {}
+    },
+    "locationContext": "TWO_WILD",
+    "prevInputType": "PLACE_WORKER"
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "label": "Gain 1 ANY",
+    "options": [
+      "BERRY",
+      "TWIG",
+      "RESIN",
+      "PEBBLE"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    },
+    "locationContext": "TWO_CARDS_ONE_WILD",
+    "prevInputType": "PLACE_WORKER"
+  },
+  {
+    "inputType": "DISCARD_CARDS",
+    "prevInputType": "PLACE_WORKER",
+    "label": "Discard up to 3 CARD & gain 1 ANY for each CARD",
+    "locationContext": "DISCARD_UP_TO_THREE_CARDS_TO_GAIN_WILD_PER_CARD",
+    "minCards": 0,
+    "maxCards": 3,
+    "clientOptions": {
+      "cardsToDiscard": []
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Gain 3 ANY",
+    "toSpend": false,
+    "maxResources": 3,
+    "minResources": 3,
+    "clientOptions": {
+      "resources": {}
+    },
+    "locationContext": "DISCARD_UP_TO_THREE_CARDS_TO_GAIN_WILD_PER_CARD",
+    "prevInputType": "DISCARD_CARDS"
+  },
+  {
+    "inputType": "DISCARD_CARDS",
+    "prevInputType": "PLACE_WORKER",
+    "label": "Select CARD to discard",
+    "locationContext": "DISCARD_ANY_THEN_DRAW_TWO_PER_CARD",
+    "minCards": 0,
+    "maxCards": 8,
+    "clientOptions": {
+      "cardsToDiscard": []
+    }
+  },
+  {
+    "inputType": "SELECT_PLAYED_CARDS",
+    "prevInputType": "PLACE_WORKER",
+    "label": "Select 2 PRODUCTION to activate",
+    "cardOptions": [
+      {
+        "cardOwnerId": "9NuzsYCRs5orBafMYJRDfJ",
+        "cardName": "Farm",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "9NuzsYCRs5orBafMYJRDfJ",
+        "cardName": "Mine",
+        "usedForCritter": false
+      },
+      {
+        "cardOwnerId": "9NuzsYCRs5orBafMYJRDfJ",
+        "cardName": "Chip Sweep"
+      }
+    ],
+    "locationContext": "FOREST_ACTIVATE_2_PRODUCTION",
+    "maxToSelect": 2,
+    "minToSelect": 2,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "PLACE_WORKER",
+    "locationContext": "FOREST_RESIN_PEBBLE_OR_FOUR_CARDS",
+    "label": "Choose one",
+    "options": [
+      "1 RESIN & 1 PEBBLE",
+      "4 CARD"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "PLACE_WORKER",
+    "locationContext": "FOREST_RESIN_PEBBLE_OR_FOUR_CARDS",
+    "label": "Choose one",
+    "options": [
+      "1 RESIN & 1 PEBBLE",
+      "4 CARD"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLACE_WORKER",
+    "label": "Discard 2 CARD from the Meadow",
+    "cardOptions": [
+      "Farm",
+      "Farm",
+      "Farm",
+      "Farm",
+      "Mine",
+      "Mine",
+      "Mine",
+      "Mine"
+    ],
+    "maxToSelect": 2,
+    "minToSelect": 2,
+    "locationContext": "FOREST_DISCARD_2_MEADOW_DRAW_2_MEADOW_GAIN_ANY",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "SELECT_CARDS",
+    "label": "Select 2 CARD from the Meadow to keep",
+    "cardOptions": [
+      "Farm",
+      "Farm",
+      "Farm",
+      "Mine",
+      "Mine",
+      "Mine",
+      "Ranger",
+      "Ranger"
+    ],
+    "maxToSelect": 2,
+    "minToSelect": 2,
+    "locationContext": "FOREST_DISCARD_2_MEADOW_DRAW_2_MEADOW_GAIN_ANY",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "label": "Gain 1 ANY",
+    "options": [
+      "BERRY",
+      "TWIG",
+      "RESIN",
+      "PEBBLE"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    },
+    "locationContext": "FOREST_DISCARD_2_MEADOW_DRAW_2_MEADOW_GAIN_ANY",
+    "prevInputType": "SELECT_CARDS"
+  },
+  {
+    "inputType": "DISCARD_CARDS",
+    "prevInputType": "PLACE_WORKER",
+    "locationContext": "HAVEN",
+    "minCards": 0,
+    "maxCards": 6,
+    "clientOptions": {
+      "cardsToDiscard": []
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "label": "Gain 2 ANY",
+    "toSpend": false,
+    "maxResources": 2,
+    "minResources": 2,
+    "clientOptions": {
+      "resources": {}
+    },
+    "locationContext": "HAVEN",
+    "prevInputType": "DISCARD_CARDS"
+  },
+  {
+    "inputType": "SELECT_LOCATION",
+    "prevInputType": "PLACE_WORKER",
+    "label": "Select basic location to copy",
+    "locationContext": "COPY_BASIC_ONE_CARD",
+    "locationOptions": [
+      "ONE_BERRY",
+      "ONE_BERRY_AND_ONE_CARD",
+      "ONE_RESIN_AND_ONE_CARD",
+      "ONE_STONE",
+      "THREE_TWIGS",
+      "TWO_CARDS_AND_ONE_VP",
+      "TWO_RESIN",
+      "TWO_TWIGS_AND_ONE_CARD"
+    ],
+    "clientOptions": {
+      "selectedLocation": null
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLACE_WORKER",
+    "label": "Draw 2 CARD from the Meadow",
+    "cardOptions": [
+      "Husband",
+      "Ranger",
+      "Wife",
+      "Cemetary",
+      "Theatre",
+      "Evertree",
+      "Husband",
+      "Husband"
+    ],
+    "maxToSelect": 2,
+    "minToSelect": 2,
+    "locationContext": "DRAW_TWO_MEADOW_PLAY_ONE_FOR_ONE_LESS",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "SELECT_CARDS",
+    "prevInput": {
+      "inputType": "SELECT_CARDS",
+      "prevInputType": "PLACE_WORKER",
+      "cardOptions": [
+        "Husband",
+        "Ranger",
+        "Wife",
+        "Cemetary",
+        "Theatre",
+        "Evertree",
+        "Husband",
+        "Husband"
+      ],
+      "maxToSelect": 2,
+      "minToSelect": 2,
+      "locationContext": "DRAW_TWO_MEADOW_PLAY_ONE_FOR_ONE_LESS",
+      "clientOptions": {
+        "selectedCards": [
+          "Husband",
+          "Evertree"
+        ]
+      }
+    },
+    "label": "Select CARD to play for one less ANY",
+    "cardOptions": [
+      "Husband",
+      "Evertree"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "locationContext": "DRAW_TWO_MEADOW_PLAY_ONE_FOR_ONE_LESS",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PAYMENT_FOR_CARD",
+    "prevInputType": "SELECT_CARDS",
+    "locationContext": "DRAW_TWO_MEADOW_PLAY_ONE_FOR_ONE_LESS",
+    "card": "Husband",
+    "clientOptions": {
+      "card": "Husband",
+      "paymentOptions": {
+        "resources": {}
+      }
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLACE_WORKER",
+    "label": "Draw 2 CARD from the Meadow",
+    "cardOptions": [
+      "Husband",
+      "Innkeeper",
+      "Wife",
+      "Cemetary",
+      "Theatre",
+      "Evertree",
+      "Husband",
+      "Husband"
+    ],
+    "maxToSelect": 2,
+    "minToSelect": 2,
+    "locationContext": "DRAW_TWO_MEADOW_PLAY_ONE_FOR_ONE_LESS",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "SELECT_CARDS",
+    "prevInput": {
+      "inputType": "SELECT_CARDS",
+      "prevInputType": "PLACE_WORKER",
+      "cardOptions": [
+        "Husband",
+        "Innkeeper",
+        "Wife",
+        "Cemetary",
+        "Theatre",
+        "Evertree",
+        "Husband",
+        "Husband"
+      ],
+      "maxToSelect": 2,
+      "minToSelect": 2,
+      "locationContext": "DRAW_TWO_MEADOW_PLAY_ONE_FOR_ONE_LESS",
+      "clientOptions": {
+        "selectedCards": [
+          "Husband",
+          "Innkeeper"
+        ]
+      }
+    },
+    "label": "Select CARD to play for one less ANY",
+    "cardOptions": [
+      "Husband",
+      "Innkeeper"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "locationContext": "DRAW_TWO_MEADOW_PLAY_ONE_FOR_ONE_LESS",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLACE_WORKER",
+    "label": "Draw 2 CARD from the Meadow",
+    "cardOptions": [
+      "Husband",
+      "Ranger",
+      "Wife",
+      "Cemetary",
+      "Theatre",
+      "Evertree",
+      "Husband",
+      "Husband"
+    ],
+    "maxToSelect": 2,
+    "minToSelect": 2,
+    "locationContext": "DRAW_TWO_MEADOW_PLAY_ONE_FOR_ONE_LESS",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "SELECT_CARDS",
+    "prevInput": {
+      "inputType": "SELECT_CARDS",
+      "prevInputType": "PLACE_WORKER",
+      "cardOptions": [
+        "Husband",
+        "Ranger",
+        "Wife",
+        "Cemetary",
+        "Theatre",
+        "Evertree",
+        "Husband",
+        "Husband"
+      ],
+      "maxToSelect": 2,
+      "minToSelect": 2,
+      "locationContext": "DRAW_TWO_MEADOW_PLAY_ONE_FOR_ONE_LESS",
+      "clientOptions": {
+        "selectedCards": [
+          "Wife",
+          "Theatre"
+        ]
+      }
+    },
+    "label": "Select CARD to play for one less ANY",
+    "cardOptions": [
+      "Wife",
+      "Theatre"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "locationContext": "DRAW_TWO_MEADOW_PLAY_ONE_FOR_ONE_LESS",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_PAYMENT_FOR_CARD",
+    "prevInputType": "SELECT_CARDS",
+    "locationContext": "DRAW_TWO_MEADOW_PLAY_ONE_FOR_ONE_LESS",
+    "card": "Wife",
+    "clientOptions": {
+      "card": "Wife",
+      "paymentOptions": {
+        "resources": {}
+      }
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLACE_WORKER",
+    "label": "Draw 2 CARD from the Meadow",
+    "cardOptions": [
+      "Husband",
+      "Ranger",
+      "Wife",
+      "Cemetary",
+      "Theatre",
+      "Evertree",
+      "Husband",
+      "Husband"
+    ],
+    "maxToSelect": 2,
+    "minToSelect": 2,
+    "locationContext": "DRAW_TWO_MEADOW_PLAY_ONE_FOR_ONE_LESS",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLACE_WORKER",
+    "label": "Draw 2 CARD from the Meadow",
+    "cardOptions": [
+      "Husband",
+      "Ranger",
+      "Wife",
+      "Cemetary",
+      "Theatre",
+      "Evertree",
+      "Husband",
+      "Crane"
+    ],
+    "maxToSelect": 2,
+    "minToSelect": 2,
+    "locationContext": "DRAW_TWO_MEADOW_PLAY_ONE_FOR_ONE_LESS",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "SELECT_CARDS",
+    "prevInput": {
+      "inputType": "SELECT_CARDS",
+      "prevInputType": "PLACE_WORKER",
+      "cardOptions": [
+        "Husband",
+        "Ranger",
+        "Wife",
+        "Cemetary",
+        "Theatre",
+        "Evertree",
+        "Husband",
+        "Crane"
+      ],
+      "maxToSelect": 2,
+      "minToSelect": 2,
+      "locationContext": "DRAW_TWO_MEADOW_PLAY_ONE_FOR_ONE_LESS",
+      "clientOptions": {
+        "selectedCards": [
+          "Cemetary",
+          "Crane"
+        ]
+      }
+    },
+    "label": "Select CARD to play for one less ANY",
+    "cardOptions": [
+      "Cemetary",
+      "Crane"
+    ],
+    "maxToSelect": 1,
+    "minToSelect": 1,
+    "locationContext": "DRAW_TWO_MEADOW_PLAY_ONE_FOR_ONE_LESS",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLACE_AMBASSADOR",
+    "label": "Select 3 PRODUCTION CARD to discard to gain 1 VP and 1 PEARL (or none to skip action)",
+    "cardOptions": [
+      "Farm",
+      "Farm",
+      "Mine"
+    ],
+    "maxToSelect": 3,
+    "minToSelect": 0,
+    "riverDestinationContext": "Gus the Gardener",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLACE_AMBASSADOR",
+    "label": "Select 3 PRODUCTION CARD to discard to gain 1 VP and 1 PEARL (or none to skip action)",
+    "cardOptions": [
+      "Farm",
+      "Farm",
+      "Mine"
+    ],
+    "maxToSelect": 3,
+    "minToSelect": 0,
+    "riverDestinationContext": "Gus the Gardener",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "PLACE_AMBASSADOR",
+    "riverDestinationContext": "Great Hall",
+    "label": "Spend 1 PEBBLE and 1 VP to draw 4 CARD and gain 1 PEARL",
+    "options": [
+      "Ok",
+      "Decline"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "PLACE_AMBASSADOR",
+    "label": "Pay 1 ANY and 1 VP to draw 2 CARD from the Meadow and gain 1 PEARL",
+    "riverDestinationContext": "Observatory",
+    "options": [
+      "PEBBLE",
+      "Decline"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "SELECT_OPTION_GENERIC",
+    "label": "Select 2 Meadow CARD",
+    "riverDestinationContext": "Observatory",
+    "cardOptions": [
+      "Bridge",
+      "Woodcarver",
+      "Woodcarver",
+      "Woodcarver",
+      "Wife",
+      "Wife",
+      "Wife",
+      "Wife"
+    ],
+    "maxToSelect": 2,
+    "minToSelect": 2,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLACE_AMBASSADOR",
+    "label": "Select 2 GOVERNANCE CARD to discard to gain 1 VP and 1 PEARL (or none to skip action)",
+    "cardOptions": [
+      "Judge",
+      "Shopkeeper"
+    ],
+    "maxToSelect": 2,
+    "minToSelect": 0,
+    "riverDestinationContext": "Crustina the Constable",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "PLACE_AMBASSADOR",
+    "label": "Select 2 GOVERNANCE CARD to discard to gain 1 VP and 1 PEARL (or none to skip action)",
+    "cardOptions": [
+      "Judge",
+      "Shopkeeper"
+    ],
+    "maxToSelect": 2,
+    "minToSelect": 0,
+    "riverDestinationContext": "Crustina the Constable",
+    "clientOptions": {
+      "selectedCards": []
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "PLACE_AMBASSADOR",
+    "riverDestinationContext": "Ballroom",
+    "label": "Spend 1 RESIN and 1 VP to draw 3 CARD and gain 1 PEARL",
+    "options": [
+      "Ok",
+      "Decline"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_OPTION_GENERIC",
+    "prevInputType": "PLACE_AMBASSADOR",
+    "riverDestinationContext": "Ballroom",
+    "label": "Spend 1 RESIN and 1 VP to draw 3 CARD and gain 1 PEARL",
+    "options": [
+      "Ok",
+      "Decline"
+    ],
+    "clientOptions": {
+      "selectedOption": null
+    }
+  },
+  {
+    "inputType": "SELECT_RESOURCES",
+    "prevInputType": "PLACE_AMBASSADOR",
+    "label": "Pay 2 ANY (and discard 2 CARD to gain 1 PEARL)",
+    "riverDestinationContext": "Shoal",
+    "toSpend": true,
+    "minResources": 2,
+    "maxResources": 2,
+    "clientOptions": {
+      "resources": {}
+    }
+  },
+  {
+    "inputType": "SELECT_CARDS",
+    "prevInputType": "SELECT_RESOURCES",
+    "label": "Discard 2 CARD (to gain 1 PEARL)",
+    "riverDestinationContext": "Shoal",
+    "cardOptions": [
+      "Farm",
+      "Farm"
+    ],
+    "maxToSelect": 2,
+    "minToSelect": 2,
+    "clientOptions": {
+      "selectedCards": []
+    }
+  }
+]

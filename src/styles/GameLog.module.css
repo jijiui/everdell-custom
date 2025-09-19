@@ -1,0 +1,51 @@
+.logs {
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 2px solid var(--border-color);
+  font-size: 14px;
+
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.logs_inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.logs_height {
+  height: 150px;
+}
+
+.log {
+  padding: 5px;
+  display: flex;
+}
+
+.log_prefix {
+  font-weight: var(--font-bold);
+  font-family: var(--font-mono);
+  margin-right: 10px;
+}
+
+.log_selected {
+  background-color: var(--highlight-color);
+}
+
+.log_entities {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.log_stats {
+  font-size: 14px;
+  padding-top: 5px;
+  margin-left: -5px;
+  color: #999;
+}
+
+.log_stat {
+  display: inline-block;
+  padding: 0 5px;
+}

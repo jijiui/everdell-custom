@@ -1,0 +1,131 @@
+.container {
+  min-height: 100vh;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f1e7ad;
+  color: #2b2c1a;
+}
+
+.title {
+  font-family: var(--font-cursive);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 100px;
+  text-align: center;
+}
+
+.links {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  background-color: inherit;
+  color: inherit;
+  border: solid 2px;
+  width: 200px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 8px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.link {
+  width: 200px;
+  border: solid 2px;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-top: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.game_builder_wrapper {
+  position: relative;
+}
+
+.game_builder {
+  display: flex;
+  width: 350px;
+  margin: 0 auto;
+  flex-direction: column;
+  border: solid 1px;
+  border-radius: 10px;
+  padding-bottom: 40px;
+}
+
+.game_builder_wrapper h2 {
+  font-family: var(--font-cursive);
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.game_builder_wrapper h3 {
+  padding: 8px 0;
+  font-family: var(--font-cursive);
+  font-size: 25px;
+  margin: 0;
+}
+
+.game_builder_fields {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.game_builder_player_input_wrapper {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.game_builder_player_input_wrapper input {
+  padding: 5px;
+  font-size: 18px;
+  width: 240px;
+  background-color: inherit;
+  color: inherit;
+  outline: none;
+  border: solid 1px;
+  border-radius: 5px;
+}
+
+.game_builder_player_input_button {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.game_builder_option {
+  padding: 5px;
+  display: flex;
+  justify-content: left;
+  font-size: 16px;
+}
+
+.game_builder_option input {
+  margin-right: 5px;
+}
+
+.beta {
+  padding: 0 3px;
+  border-radius: 5px;
+  background: #2b2c1a;
+  color: #f1e7ad;
+  font-size: 10px;
+  display: inline-block;
+  height: 16px;
+  border: solid 1px black;
+}

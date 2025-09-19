@@ -1,0 +1,50 @@
+.button {
+  background-color: inherit;
+  color: inherit;
+  border: solid 2px var(--border-color);
+  padding: 5px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.input_type_radio {
+  margin-top: 10px;
+}
+
+.input_type_radio_span {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.input_type_form_nested {
+  margin: 10px 30px;
+}
+
+.play_card_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+}
+
+.play_card_list_item_wrapper {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.play_card_list_item {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.play_card_list_item_selected {
+  opacity: 0.5;
+}
+
+.description {
+  margin-left: -5px;
+  font-size: 14px;
+  font-style: italic;
+}

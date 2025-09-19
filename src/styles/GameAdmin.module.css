@@ -1,0 +1,19 @@
+.container {
+  min-height: 100vh;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  padding-top: 15px;
+}
+
+.footer {
+  padding: 25px 0;
+}
+
+.links {
+  padding-top: 0;
+  padding-bottom: 0;
+}

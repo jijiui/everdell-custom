@@ -1,0 +1,61 @@
+.event {
+  min-height: 100px;
+  width: 160px;
+  border-radius: 5px;
+  border: solid 2px var(--border-color-evt);
+  background-color: var(--bg-color-item);
+  display: flex;
+  justify-content: center;
+  align-self: flex-start;
+  flex-direction: column;
+  position: relative;
+}
+
+.event_basic {
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.event_basic div {
+  width: 22px;
+  height: 22px;
+}
+
+.event_row {
+  padding: 5px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.event_header {
+  font-weight: var(--font-bold);
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.base_vp {
+  font-size: 12px;
+  padding: 8px;
+}
+
+.claimed_by {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.claimed_label {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.claimed_by_text {
+  text-transform: uppercase;
+  width: auto;
+  font-size: 10px;
+  font-weight: var(--font-bold);
+  align-self: center;
+}
