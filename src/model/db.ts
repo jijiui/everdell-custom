@@ -7,15 +7,16 @@ import { Pool } from "pg";
 import { GameJSON } from "./jsonTypes";
 
 type StoreType = "pg" | "pg-deprecated" | "local";
+// Accept common env names used by Neon/Vercel setups as fallbacks.
 const storeUrlForType: Record<StoreType, string | undefined> = {
-  pg: process.env.DATABASE_URL_SUPABASE,
+  pg:
+    process.env.DATABASE_URL_SUPABASE ||
+    process.env.DATABASE_URL ||
+    process.env.POSTGRES_URL ||
+    process.env.NEON_DATABASE_URL,
   "pg-deprecated": process.env.DATABASE_URL_SUPABASE_OLD,
   local: process.env.DB_PATH,
 };
-if (Object.values(storeUrlForType).filter((x) => !!x).length === 0) {
-  console.error("Must specify a DB env variable.");
-  process.exit(-1);
-}
 const _instanceCache: Record<StoreType, IDb | null> = {
   pg: null,
   "pg-deprecated": null,
@@ -55,7 +56,8 @@ const getDbInstance = (preferredOrder: StoreType[]): IDb => {
       return getOrCreateDbInstance(storeType);
     }
   }
-  throw new Error("Unable to instantiate DB instance.");
+  // Throw a clear error at runtime instead of exiting during build-time import.
+  throw new Error("Must specify a DB env variable.");
 };
 
 const getDbForGameId = (gameId: string): IDb => {
