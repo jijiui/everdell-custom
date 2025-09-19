@@ -73,7 +73,8 @@ export class Game {
     // Record snapshot after applying input (post-state), map to latest log index.
     const logIdx = nextState.getGameLog().length - 1;
     const snapshot: HistoryItemJSON = {
-      state: nextState.toJSON({ includePrivate: true, isRoot: false }),
+      // Store snapshot with logs so rewinds retain history context.
+      state: nextState.toJSON({ includePrivate: true, isRoot: true }),
       logIdx,
     };
     this.historySnapshots.push(snapshot);
@@ -81,7 +82,8 @@ export class Game {
     if (this.historySnapshots.length > 200) {
       this.historySnapshots.splice(0, this.historySnapshots.length - 200);
     }
-    this.gameState = GameState.fromJSON(snapshot.state);
+    // Keep in-memory state as the fully built nextState (do not strip logs).
+    this.gameState = nextState;
   }
 
   async save(): Promise<void> {
