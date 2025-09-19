@@ -24,6 +24,21 @@ export type GameJSON = {
   gameId: string;
   gameSecret: string;
   gameState: GameStateJSON;
+  // Client-side lightweight history metadata for rendering rewind buttons.
+  historyMeta?: HistoryStepJSON[];
+  // Server-side persisted snapshots (only included in private JSON saved to DB).
+  // Not sent to non-admin clients.
+  history?: HistoryItemJSON[];
+};
+
+export type HistoryStepJSON = {
+  gameStateId: number;
+  logIdx: number;
+};
+
+export type HistoryItemJSON = {
+  state: GameStateJSON;
+  logIdx: number;
 };
 
 export type GameStateJSON = {

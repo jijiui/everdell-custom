@@ -67,6 +67,8 @@ const Game: React.FC<{
           gameStateJSON={gameStateJSON}
           gameState={gameState}
           viewingPlayer={viewingPlayer}
+          gameId={gameId}
+          historyMeta={(gameJSON as any).historyMeta || []}
         />
         {gameState.isGameOver() && (
           <GamePointsBreakdown gameState={gameState} />

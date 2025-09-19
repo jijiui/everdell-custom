@@ -21,6 +21,7 @@
 .log {
   padding: 5px;
   display: flex;
+  align-items: center;
 }
 
 .log_prefix {
@@ -31,6 +32,16 @@
 
 .log_selected {
   background-color: var(--highlight-color);
+}
+
+.log_rewind_btn {
+  margin-left: auto;
+  visibility: hidden;
+  font-size: 12px;
+}
+
+.log:hover .log_rewind_btn {
+  visibility: visible;
 }
 
 .log_entities {

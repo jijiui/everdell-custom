@@ -9,12 +9,19 @@ import { GameLogEntry } from "../model/types";
 import { GameState } from "../model/gameState";
 import { GameStateJSON } from "../model/jsonTypes";
 import { Description, GameBlock } from "./common";
+import { GameUpdaterContext } from "./GameUpdater";
+
+type HistoryMeta = { gameStateId: number; logIdx: number }[];
 
 const GameLog: React.FC<{
   logs: GameLogEntry[];
   gameStateJSON?: GameStateJSON | null;
   fixedHeight?: boolean;
-}> = ({ gameStateJSON = null, logs, fixedHeight = true }) => {
+  historyMeta?: HistoryMeta;
+  gameId?: string;
+  viewingPlayer?: { playerId: string; playerSecretUNSAFE: string } | null;
+}> = ({ gameStateJSON = null, logs, fixedHeight = true, historyMeta = [], gameId, viewingPlayer }) => {
+  const updateGameState = React.useContext(GameUpdaterContext);
   const [selectedEntry, setSelectedEntry] = useState<
     GameLogEntry["entry"] | null
   >(null);
@@ -72,6 +79,7 @@ const GameLog: React.FC<{
         <div className={styles.logs_inner}>
           {logs.map(({ entry }, idx) => {
             const isSelected = selectedEntry && isEqual(selectedEntry, entry);
+            const step = historyMeta?.find((h) => h.logIdx === idx);
             return (
               <div
                 key={idx}
@@ -87,6 +95,28 @@ const GameLog: React.FC<{
                 <span>
                   <Description textParts={entry} />
                 </span>
+                {step && gameId && viewingPlayer && (
+                  <button
+                    className={styles.log_rewind_btn}
+                    title="Return to this step"
+                    onClick={async (e) => {
+                      e.stopPropagation();
+                      await fetch("/api/rewind", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({
+                          gameId,
+                          playerId: viewingPlayer.playerId,
+                          playerSecret: viewingPlayer.playerSecretUNSAFE,
+                          toGameStateId: step.gameStateId,
+                        }),
+                      });
+                      updateGameState();
+                    }}
+                  >
+                    Return to this step
+                  </button>
+                )}
               </div>
             );
           })}

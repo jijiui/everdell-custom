@@ -334,7 +334,9 @@ export const GameBoard: React.FC<{
   gameState: GameState;
   gameStateJSON: GameStateJSON;
   viewingPlayer: Player | null;
-}> = ({ gameState, gameStateJSON, viewingPlayer }) => {
+  gameId?: string;
+  historyMeta?: { gameStateId: number; logIdx: number }[];
+}> = ({ gameState, gameStateJSON, viewingPlayer, gameId, historyMeta = [] }) => {
   return (
     <div className={styles.game_board}>
       <div>
@@ -351,7 +353,13 @@ export const GameBoard: React.FC<{
         <div className={styles.game_board_meadow}>
           <Meadow meadowCards={gameState.meadowCards} />
         </div>
-        <GameLog logs={gameState.getGameLog()} gameStateJSON={gameStateJSON} />
+        <GameLog
+          logs={gameState.getGameLog()}
+          gameStateJSON={gameStateJSON}
+          historyMeta={historyMeta}
+          gameId={gameId}
+          viewingPlayer={viewingPlayer as any}
+        />
       </div>
       {gameState.gameOptions.newleaf?.station ? (
         <>
